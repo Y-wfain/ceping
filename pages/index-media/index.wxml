@@ -1,0 +1,16 @@
+<view class="cont">
+  <view class="cont_vie" bindtap="navbind" wx:for="{{dataimg}}" data-id="{{item.id}}" data-tit="{{item.tit}}" data-txtdelit="{{item.txtdelit}}">
+    <image src="{{item.img}}"></image>
+  </view>
+</view>
+<view class="div">
+  <view class="cont_txt">
+    <view class="top_tit">
+      <image src="../../image/429620a90e2f7b34360d8f389a41976.png"></image>
+      <view class="tit">{{title}}</view>
+    </view>
+    <view class="cont_delit">
+      {{txt}}
+    </view>
+  </view>
+</view>

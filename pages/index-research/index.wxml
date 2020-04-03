@@ -1,0 +1,111 @@
+<!-- <view class="cont_1">
+  <image class="img1" src="../../image/dakuang@2x.png"></image>
+  <image class="img3" src="../../image/yuan@2x.png"></image>
+  <view class="view1">
+    <image class="img2" src="../../image/biaotikuang@2x.png"></image>
+    <view class="view_txt"> 2006届高考生“潜能测试”结果分析</view>
+  </view>
+  <view class="view2">
+    <view class="rido"></view>
+    <view class="txt">概要</view>
+  </view>
+  <view class="txt1">
+    北京166中学高三学生于2006年3 月参加了易迈步潜能研究中心组织 的“高考生专业选择潜能测试”，测 试学生共计170人，其中男生74名 占43.5%，女生96人占56.5%。现 就参加测试学生的学科兴趣特点、 生涯动机趋向，及能力优势状况， 做一概括分析，供参考
+  </view>
+  <view class="view2">
+    <view class="rido"></view>
+    <view class="txt">学科兴趣排序分析</view>
+  </view>
+  <view class="txt1">共测试了学生23大学科兴趣，兴趣 程度最低为6分，最高为30分，18 以上为兴趣比较浓厚。从下表可以 看出，最感兴趣的学科依次是管理 学、经济学、社会工作、艺术、文 学和生物学。而兴趣比较低的学科 依次是交通、农业、工程及林业。 从男生和女生比较来看，学科兴趣 略有差异。男生喜欢的学科依次是 经济学、管理学、技术、社会工作 和电子、化学、物理和数学等；而 女生喜欢的学科是管理、社会工作、 经济学、艺术、文学、新闻、医学、 生物学等。比较来看，似乎男偏理、 女偏文的倾向依然存在，但排在前 几位的学科兴趣，男女生有有共同相似的地方，换句话说，男女生对
+    文理交叉的专业普遍感兴趣，如管 理学、经济学、社会工作。
+  </view>
+</view>
+<view class="cont_2">
+  <image class="img4" src="../../image/xiangkuang@2x.png"></image>
+  <image class="img5" src="../../image/fangkuai@2x.png"></image>
+  <view class="view1">
+    <image class="img2" src="../../image/biaotikuang@2x.png"></image>
+    <view class="view_txt"> 综合分析</view>
+  </view>
+
+  <view class="txt1">
+    以上从学科兴趣、生涯动机、能力 倾向三大方面分析了170名考生的 基本情况。可以看出这三大方面总 体上具有很强的一致性。换句话说， 这些考生的学科兴趣、和生涯动机 及能力基本相吻合，一方面反应了 测试题的准确性，另一方面说明了 考生所确定的未来发展方向比较切 合于自己的实际能力。
+  </view>
+</view>
+<view style="width:100%;height:100rpx;"></view> -->
+
+<view class="top_tab">
+  <view class="top_txt {{iid==1?'active':''}}" data-id="1" bindtap="clickFn">科研园地</view>
+  <view class="top_txt {{iid==2?'active':''}}" data-id="2" bindtap="clickFn">出版书籍</view>
+</view>
+<view wx:if="{{iid==1}}">
+  <view class="list_contk">
+    <image class="img_k" src="http://47.94.12.97:8099/img/4543ced30442e36faa9403a268c694e.png"></image>
+    <view class="k_right">
+      <view class="title_k">2006届高考生“潜能测试”结果分析</view>
+      <view class="txt_k">北京166中学高三学生于2006年3 月参加了易迈步潜能研究中心组织 的“高考生专业选择潜能测试”，测 试学生共计170人，其中男生74名 占43.5%，女生96人占56.5%。现 就参加测试学生的学科兴趣特点、 生涯动机趋向，及能力优势状况， 做一概括分析，供参考</view>
+    </view>
+  </view>
+
+  <view class="list_contk">
+    <image class="img_k" src="http://47.94.12.97:8099/img/4543ced30442e36faa9403a268c694e.png"></image>
+    <view class="k_right">
+      <view class="title_k">学科兴趣排序分析</view>
+      <view class="txt_k">共测试了学生23大学科兴趣，兴趣 程度最低为6分，最高为30分，18 以上为兴趣比较浓厚。从下表可以 看出，最感兴趣的学科依次是管理 学、经济学、社会工作、艺术、文 学和生物学。而兴趣比较低的学科 依次是交通、农业、工程及林业。 从男生和女生比较来看，学科兴趣 略有差异。男生喜欢的学科依次是 经济学、管理学、技术、社会工作 和电子、化学、物理和数学等；而 女生喜欢的学科是管理、社会工作、 经济学、艺术、文学、新闻、医学、 生物学等。比较来看，似乎男偏理、 女偏文的倾向依然存在，但排在前
+        几位的学科兴趣，男女生有有共同相似的地方，换句话说，男女生对 文理交叉的专业普遍感兴趣，如管 理学、经济学、社会工作。</view>
+    </view>
+  </view>
+  <view class="list_contk">
+    <image class="img_k" src="http://47.94.12.97:8099/img/4543ced30442e36faa9403a268c694e.png"></image>
+    <view class="k_right">
+      <view class="title_k">综合分析</view>
+      <view class="txt_k"> 以上从学科兴趣、生涯动机、能力 倾向三大方面分析了170名考生的 基本情况。可以看出这三大方面总 体上具有很强的一致性。换句话说， 这些考生的学科兴趣、和生涯动机 及能力基本相吻合，一方面反应了 测试题的准确性，另一方面说明了 考生所确定的未来发展方向比较切 合于自己的实际能力。</view>
+    </view>
+  </view>
+  <view class="list_contk">
+    <image class="img_k" src="http://47.94.12.97:8099/img/4543ced30442e36faa9403a268c694e.png"></image>
+    <view class="k_right">
+      <view class="title_k">2006届高考生“潜能测试”结果分析</view>
+      <view class="txt_k">北京166中学高三学生于2006年3 月参加了易迈步潜能研究中心组织 的“高考生专业选择潜能测试”，测 试学生共计170人，其中男生74名 占43.5%，女生96人占56.5%。现 就参加测试学生的学科兴趣特点、 生涯动机趋向，及能力优势状况， 做一概括分析，供参考</view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{iid==2}}">
+  <view class="cont">
+    <view class="cont_cont_img">
+      <!-- <image src="{{item.img}}"></image> -->
+      <image src="http://47.94.12.97:8099/img/1b2eb32a92b4cc576f3668042aa069a.png"></image>
+    </view>
+ <view class="cont_cont_img">
+    <image src="http://47.94.12.97:8099/img/001.png"></image>
+  </view>
+  <view class="cont_cont_img">
+    <image src="http://47.94.12.97:8099/img/002.png"></image>
+  </view>
+  <view class="cont_cont_img">
+    <image src="http://47.94.12.97:8099/img/003.png"></image>
+  </view>
+  <view class="cont_cont_img">
+    <image src="http://47.94.12.97:8099/img/004.png"></image>
+  </view>
+  <view class="cont_cont_img">
+    <image src="http://47.94.12.97:8099/img/005.png"></image>
+  </view>
+  <view class="cont_cont_img">
+    <image src="http://47.94.12.97:8099/img/006.png"></image>
+  </view>
+  <view class="cont_cont_img">
+    <image src="http://47.94.12.97:8099/img/007.png"></image>
+  </view>
+  <view class="cont_cont_img">
+    <image src="http://47.94.12.97:8099/img/008.png"></image>
+  </view>
+  <view class="cont_cont_img">
+    <image src="http://47.94.12.97:8099/img/009.png"></image>
+  </view>
+  <view class="cont_cont_img">
+    <image src="http://47.94.12.97:8099/img/010.png"></image>
+  </view>
+  </view>
+ 
+</view>

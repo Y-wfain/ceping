@@ -1,0 +1,3 @@
+<view class="cont">
+  <video controls="true" src="http://47.94.12.97:8099/img/cctv2.mp4"></video>
+</view>

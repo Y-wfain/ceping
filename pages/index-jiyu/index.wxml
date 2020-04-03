@@ -1,0 +1,49 @@
+<view class="bgc">
+<image class="left" src="http://47.94.12.97:8099/img/a9769a2fb78b9b1c3541acd9ac75ef2.png"></image>
+<image class="right" src="http://47.94.12.97:8099/img/c52d5318b8e383c0c35b390e35689b7.png"></image>
+  <view class="txt_title">
+    <view>/ 心 智 栋 梁 /</view>
+    <view>/ 专 家 寄 语 /</view>
+  </view>
+  <view class="list_name" bindtap="mashupFn">
+    <image src="../../image/touxiang@2x.png"></image>
+    <view class="name_title">
+      <view class="name">专家：马叔平</view>
+      <view class="delirt_txt">北京教科院原院长、俄罗斯外籍院士</view>
+      <view class="txt">完成高中阶段后的青年，走到了人生重要的路口，要面对从事职业和上学的专业选择。如何继续迈进？一个人的职业在大多数情况下与他所学的专业有着直接的关系。专业虽然并不能决定某个人将来从事某项特定的具体职业，却基本上界定了未来职业的范围。因此主动的职业意识和未来意识对完成高中阶段后的青</view>
+    </view>
+  </view>
+  <view class="list_name">
+    <image src="../../image/touxiang@2x.png"></image>
+    <view class="name_title">
+      <view class="name">专家：卜新</view>
+      <view class="delirt_txt">毕业于哈佛大学费正清东亚研究中心，科学出版社高级编辑</view>
+      <view class="txt">年初，雪颖老师邀晓华和我洽谈长期出版合作事宜。席间，大家谈到此书及其前身《高考生专业选择与潜能测试》（科学出版社，2004年）对广大学子的指导意义，我不禁感慨良多，诉说了自己成长的曲折道路。二人听了，拊掌称善，都鼓励我现身说法，以作此序。我只好勉力为之。</view>
+    </view>
+  </view>
+  <view class="list_name">
+    <image src="../../image/touxiang@2x.png"></image>
+    <view class="name_title">
+      <view class="name">专家：金冬梅</view>
+      <view class="delirt_txt">北京工商大学副教授</view>
+      <view class="txt">新一代青年因为物质需求满足得较多，更加重视精神生活。在择业方面，不会简单地仅从工作带来的物质回报来判断工作的好坏。他们想找到能展现自己的才华，满足自己的兴趣，表达自己的价值观，同时又能满足社会需要的工作。他们追寻自身和社会高度契合的职业。对这种职业的探索需要对自身和社会现有的职业有充分而准确的把握。</view>
+    </view>
+  </view>
+  <view class="list_name">
+    <image src="../../image/touxiang@2x.png"></image>
+    <view class="name_title">
+      <view class="name">专家：张贵良</view>
+      <view class="delirt_txt">北京教科院研究员，潜能研究中心主任</view>
+      <view class="txt">如果你只想种植几天，就种花； 如果你只想种植几年，就种树； 如果你想流传千秋万世，就种植观念！
+      </view>
+    </view>
+  </view>
+  <view class="list_name">
+    <image src="../../image/touxiang@2x.png"></image>
+    <view class="name_title">
+      <view class="name">专家：雪颖</view>
+      <view class="delirt_txt">栋梁测评研究院院长</view>
+      <view class="txt">面对新高考，学子们做好人生准备了吗？无论是新高考的“6选3”还是以专业为导向的志愿填报，都是基于生涯规划对自己人生负责的决策。生涯赢家往往是一个能清晰认识自己、知道自己想去做什么的人。如何彩绘生命的蓝图、诠释人生的精彩，正是我们栋梁IMAP潜能测评要为你解密的。</view>
+    </view>
+  </view>
+</view>

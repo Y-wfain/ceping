@@ -1,0 +1,50 @@
+<view class="content">
+  <view class="cont" bindtap="shopdelitFn">
+    <image class="img1" src="../../image/tu@22x.png"></image>
+    <view class="title">栋梁生涯测评</view>
+    <view class="txt">
+      <text class="txt1">高中生</text>|
+      <text class="txt2">高考选择</text>
+    </view>
+    <view class="bot_numpick">
+      <view class="num">23万人购买</view>
+      <view class="picke">￥56</view>
+    </view>
+  </view>
+  <view class="cont">
+    <image class="img1" src="../../image/tu@22x.png"></image>
+    <view class="title">栋梁生涯测评</view>
+    <view class="txt">
+      <text class="txt1">高中生</text>|
+      <text class="txt2">高考选择</text>
+    </view>
+    <view class="bot_numpick">
+      <view class="num">23万人购买</view>
+      <view class="picke">￥56</view>
+    </view>
+  </view>
+  <view class="cont">
+    <image class="img1" src="../../image/tu@22x.png"></image>
+    <view class="title">栋梁生涯测评</view>
+    <view class="txt">
+      <text class="txt1">高中生</text>|
+      <text class="txt2">高考选择</text>
+    </view>
+    <view class="bot_numpick">
+      <view class="num">23万人购买</view>
+      <view class="picke">￥56</view>
+    </view>
+  </view>
+  <view class="cont">
+    <image class="img1" src="../../image/tu@22x.png"></image>
+    <view class="title">栋梁生涯测评</view>
+    <view class="txt">
+      <text class="txt1">高中生</text>|
+      <text class="txt2">高考选择</text>
+    </view>
+    <view class="bot_numpick">
+      <view class="num">23万人购买</view>
+      <view class="picke">￥56</view>
+    </view>
+  </view>
+</view>

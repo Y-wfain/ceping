@@ -1,0 +1,51 @@
+<view class="top_cont">
+  <view class="img1">
+    <image src="../../image/LOGO@2x.png"></image>
+  </view>
+  <view class="cont_topdelit">
+    <view class="vie_img2">
+      <view class="vie_tit">关于我们 About Us</view>
+      <image class="img2" src="../../image/429620a90e2f7b34360d8f389a41976.png"></image>
+    </view>
+
+    <view class="tit">
+      心智栋梁是一家以心理测评为主导，为 学生提供生涯发展指导、学习潜能开发 等服务的教育研究院，秉承“人人都有巨 大的潜能，人人都能成功”的教育理念， 为学生进行人生规划指导及学习潜能开 发。栋梁测评（IMAP）《高中生生涯发 展评估分析系统》是北京教育科学研究 院张贵良联合北京师范大学知名学者联 合开发。从2000年始以生涯规划为核心 的潜能测评系统，先后为北京的清华附 中、北大附中、人大附中、四中、实验 中学、八中、十一学校、汇文学校、东 直门中学、陈经纶学校、15中及延庆一 中等100多所学校及全国的百万名学生，
+      进行了科学填报志愿及专业选择的定向 升学指导。
+    </view>
+  </view>
+</view>
+<image class="img3" src="../../image/fangxing@2x.png"></image>
+<view class="bot_cont">
+  <view class="vie_img3">
+    <view class="vie_tit">关于我们 About Us</view>
+    <image class="img4" src="../../image/429620a90e2f7b34360d8f389a41976.png"></image>
+  </view>
+  <view class="tit">
+    <view style="margin-top:100rpx;">1998年，由北京教育科学研究院人员牵 头联合北师大、中科院相关人员共同开 发。</view>
+    <view>1999年 在北京教育科学研究院马叔平 院长等领导的支持下成立北京教科院潜 能研究中心，张贵良任主任，专门研究 生涯发展规划课题。
+    </view>
+    <view>2000年，5月完成普及版的研发，全国 率先首次服务北京考生；6月首家媒体 《北京晨报》报道。
+    </view>
+    <view>2001年，6月中央2套专题采访；这项 突出的科研成果载入《北京教育年鉴》； 出版首版专著《高考生专业选择及潜能 测试》。
+    </view>
+    <view> 2002年，向学校发布《潜能测试与高 考成绩论文集》。
+    </view>
+    <view>2003年，高级版问世。</view>
+    <view>2004年，获得中国教育学会教育统计与 测量分会的认证。
+    </view>
+    <view>2005年，超级版问世。</view>
+    <view>2012年，中小学生学习问题诊断及咨询 测查项目问世。
+    </view>
+    <view>2016年，生涯课程立项北京东城教育研 修院。
+    </view>
+    <view>2018年，高中生涯课程体系建立。</view>
+    <view>2019年，依据5990名高中生样本，采 集百万条数据构建分析模型，推出新版“ 高中生生涯发展评估系统”，新高考“6 选3”测评系统诞生。
+    </view>
+
+  </view>
+</view>
+<view class="bot_ma">
+  <image class="img_1" src="../../image/yuan@22x.png"></image>
+  <image class="img_2" src="../../image/erweim@2x.png"></image>
+  <image class="img_3" src="../../image/fang@2x.png"></image>
+</view>

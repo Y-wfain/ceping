@@ -1,0 +1,6 @@
+<view class="cont">
+  <view class="cont_cont_img" wx:for="{{book}}">
+    <image src="{{item.img}}"></image>
+  </view>
+
+</view>

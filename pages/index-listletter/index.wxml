@@ -1,0 +1,140 @@
+<view class="cont" style="height:{{height}}px">
+  <image class="img_bgc" style="height:{{height}}px" src="http://47.94.12.97:8099/img/kaoshenglaixin.png"></image>
+  <view class="content">
+    <view class="top_title">
+      <image class="img_img1" src="http://47.94.12.97:8099/img/biaoti@2x.png"></image>
+      <view class="title"> 学 生 来 信 </view>
+    </view>
+    <view class="cont_list" bindtap="godelit">
+      <view class="list">
+        <image src="../../image/bb.png" class="img_user"></image>
+        <view class="user_delit">
+          <view class="name">姓名：陈同学</view>
+          <view class="school">毕业高中：人大附中高三11班</view>
+          <view class="time_ce">测试时间:2019-04-21</view>
+        </view>
+      </view>
+    </view>
+    <view class="cont_list" bindtap="godelit">
+      <view class="list">
+        <image src="../../image/bb.png" class="img_user"></image>
+        <view class="user_delit">
+          <view class="name">姓名：陈同学</view>
+          <view class="school">毕业高中：人大附中高三11班</view>
+          <view class="time_ce">测试时间:2019-04-21</view>
+        </view>
+      </view>
+    </view>
+    <view class="cont_list" bindtap="godelit">
+      <view class="list">
+        <image src="../../image/bb.png" class="img_user"></image>
+        <view class="user_delit">
+          <view class="name">姓名：陈同学</view>
+          <view class="school">毕业高中：人大附中高三11班</view>
+          <view class="time_ce">测试时间:2019-04-21</view>
+        </view>
+      </view>
+    </view>
+    <view class="cont_list" bindtap="godelit">
+      <view class="list">
+        <image src="../../image/bb.png" class="img_user"></image>
+        <view class="user_delit">
+          <view class="name">姓名：陈同学</view>
+          <view class="school">毕业高中：人大附中高三11班</view>
+          <view class="time_ce">测试时间:2019-04-21</view>
+        </view>
+      </view>
+    </view>
+    <view class="cont_list" bindtap="godelit">
+      <view class="list">
+        <image src="../../image/bb.png" class="img_user"></image>
+        <view class="user_delit">
+          <view class="name">姓名：陈同学</view>
+          <view class="school">毕业高中：人大附中高三11班</view>
+          <view class="time_ce">测试时间:2019-04-21</view>
+        </view>
+      </view>
+    </view>
+    <view class="cont_list" bindtap="godelit">
+      <view class="list">
+        <image src="../../image/bb.png" class="img_user"></image>
+        <view class="user_delit">
+          <view class="name">姓名：陈同学</view>
+          <view class="school">毕业高中：人大附中高三11班</view>
+          <view class="time_ce">测试时间:2019-04-21</view>
+        </view>
+      </view>
+    </view>
+    <view class="cont_list" bindtap="godelit">
+      <view class="list">
+        <image src="../../image/bb.png" class="img_user"></image>
+        <view class="user_delit">
+          <view class="name">姓名：陈同学</view>
+          <view class="school">毕业高中：人大附中高三11班</view>
+          <view class="time_ce">测试时间:2019-04-21</view>
+        </view>
+      </view>
+    </view>
+    <view class="cont_list" bindtap="godelit">
+      <view class="list">
+        <image src="../../image/bb.png" class="img_user"></image>
+        <view class="user_delit">
+          <view class="name">姓名：陈同学</view>
+          <view class="school">毕业高中：人大附中高三11班</view>
+          <view class="time_ce">测试时间:2019-04-21</view>
+        </view>
+      </view>
+    </view>
+    <view class="cont_list" bindtap="godelit">
+      <view class="list">
+        <image src="../../image/bb.png" class="img_user"></image>
+        <view class="user_delit">
+          <view class="name">姓名：陈同学</view>
+          <view class="school">毕业高中：人大附中高三11班</view>
+          <view class="time_ce">测试时间:2019-04-21</view>
+        </view>
+      </view>
+    </view>
+    <view class="cont_list" bindtap="godelit">
+      <view class="list">
+        <image src="../../image/bb.png" class="img_user"></image>
+        <view class="user_delit">
+          <view class="name">姓名：陈同学</view>
+          <view class="school">毕业高中：人大附中高三11班</view>
+          <view class="time_ce">测试时间:2019-04-21</view>
+        </view>
+      </view>
+    </view>
+    <view class="cont_list" bindtap="godelit">
+      <view class="list">
+        <image src="../../image/bb.png" class="img_user"></image>
+        <view class="user_delit">
+          <view class="name">姓名：陈同学</view>
+          <view class="school">毕业高中：人大附中高三11班</view>
+          <view class="time_ce">测试时间:2019-04-21</view>
+        </view>
+      </view>
+    </view>
+    <view class="cont_list" bindtap="godelit">
+      <view class="list">
+        <image src="../../image/bb.png" class="img_user"></image>
+        <view class="user_delit">
+          <view class="name">姓名：陈同学</view>
+          <view class="school">毕业高中：人大附中高三11班</view>
+          <view class="time_ce">测试时间:2019-04-21</view>
+        </view>
+      </view>
+    </view>
+    <view class="cont_list" bindtap="godelit">
+      <view class="list">
+        <image src="../../image/bb.png" class="img_user"></image>
+        <view class="user_delit">
+          <view class="name">姓名：陈同学</view>
+          <view class="school">毕业高中：人大附中高三11班</view>
+          <view class="time_ce">测试时间:2019-04-21</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

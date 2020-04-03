@@ -1,0 +1,9 @@
+<view class="cont" style="height:{{height}}px">
+  <image class="img1"  src="http://47.94.12.97:8099/img/581d613c87cf0d5cfdf8c3a7804573b.png"></image>
+  <view class="content">
+    <view class="title"> 潜 能 测 试 {{arrar[id].title}} </view>
+    <!-- <view ></view> -->
+     <rich-text class="txt" nodes="{{arrar[id].txt}}"></rich-text>
+  </view>
+  <image bindtap="godati" class="img_2" src="../../image/dianjicep@2x.png"></image>
+</view>

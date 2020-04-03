@@ -1,0 +1,41 @@
+<view class="top_tab">
+  <view class="{{classid==1?'active':''}}" data-id="1" bindtap="clickFn">审核中</view>
+  <view class="{{classid==2?'active':''}}" data-id="2" bindtap="clickFn">已完成</view>
+</view>
+<view class="cont_list">
+  <view class="lefft_txt">
+    <view class="name_tit">2020-01-05提现佣金150元</view>
+    <!-- <view class="time_tit">2019-05-06</view> -->
+  </view>
+  <view class="money">
+    +150
+  </view> 
+</view>
+<view class="cont_list">
+  <view class="lefft_txt">
+    <view class="name_tit">2020-01-05提现佣金150元</view>
+    <!-- <view class="time_tit">2019-05-06</view> -->
+  </view>
+  <view class="money">
+    +150
+  </view> 
+</view>
+<view class="cont_list">
+  <view class="lefft_txt">
+    <view class="name_tit">2020-01-05提现佣金150元</view>
+    <!-- <view class="time_tit">2019-05-06</view> -->
+  </view>
+  <view class="money">
+    +150
+  </view> 
+</view>
+
+<!-- <view class="cont_list">
+  <view class="lefft_txt">
+    <view class="name_tit">分享XXX奖励</view>
+    <view class="time_tit">2019-05-06</view>
+  </view>
+  <view class="money">
+    +150
+  </view> 
+</view> -->

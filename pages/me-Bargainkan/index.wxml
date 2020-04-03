@@ -1,0 +1,83 @@
+<view class="top_tab">
+  <view class="{{classid==1?'active':''}}" data-id="1" bindtap="clickFn">全部订单</view>
+  <view class="{{classid==2?'active':''}}" data-id="2" bindtap="clickFn">已完成</view>
+  <view class="{{classid==3?'active':''}}" data-id="3" bindtap="clickFn">未支付</view>
+</view>
+<view class="cont_list" >
+  <image class="img1" src="../../image/tu@22x.png"></image>
+  <view class="rigth">
+    <view class="tit">产品名称：生涯测评</view>
+    <view class="tit_sub">原价：56元</view>
+    <view class="num_money">
+     <view>当前价：￥26</view>
+      <!-- <view>优惠价：￥26</view> -->
+      <view> ×1 </view>
+    </view>
+     <view class="kanjia_status">订单完成</view>
+     <!-- <view class="kanjia_status">砍价进行中</view> -->
+  </view>
+  <view class="staus_div">
+    <view class="staus">已支付</view>
+
+    <view class="look_code_pay" bindtap="lookcp">查看测评码</view>
+  </view>
+</view>
+<view class="cont_list" >
+  <image class="img1" src="../../image/tu@22x.png"></image>
+  <view class="rigth">
+    <view class="tit">产品名称：生涯测评</view>
+    <view class="tit_sub">原价：56元</view>
+    <view class="num_money">
+     <view>当前价：￥26</view>
+      <!-- <view>优惠价：￥26</view> -->
+      <view> ×1 </view>
+    </view>
+     <view class="kanjia_status">砍价已完成</view>
+     <!-- <view class="kanjia_status">砍价进行中</view> -->
+  </view>
+  <view class="staus_div">
+    <view class="staus">待支付</view>
+
+    <view class="look_code_pay" bindtap="lookcp">去支付</view>
+  </view>
+</view>
+<view class="cont_list">
+  <image class="img1" src="../../image/tu@22x.png"></image>
+  <view class="rigth">
+    <view class="tit">产品名称：生涯测评</view>
+    <view class="tit_sub">原价：23元</view>
+    <view class="num_money">
+      <view>当前价：￥26</view>
+      <!-- <view>优惠价：￥26</view> -->
+      <view> ×1 </view>
+    </view>
+    <!-- <view class="kanjia_status">砍价已完成</view> -->
+    <view class="kanjia_status">砍价进行中</view>
+  </view>
+  <view class="staus_div">
+    <view class="staus">未支付</view>
+
+    <view class="look_code_pay">查看砍价</view>
+  </view>
+</view>
+<view class="cont_list" wx:for="{{list}}" wx:key="index">
+  <image class="img1" src="../../image/tu@22x.png"></image>
+  <view class="rigth">
+    <view class="tit">产品名称：生涯测评</view>
+    <view class="tit_sub">原价：{{item.money/100}}元</view>
+    <view class="num_money">
+      <view >当前价：￥{{item.money/100}}</view>
+      <!-- <view>优惠价：￥26</view> -->
+      <view> ×{{item.amount}} </view>
+    </view>
+    <view class="kanjia_status" wx:if="{{item.stat==1}}">砍价已完成</view>
+    <view class="kanjia_status"  wx:if="{{item.stat==0}}">砍价进行中</view>
+  </view>
+  <view class="staus_div">
+    <view class="staus" wx:if="{{item.stat==0}}">未支付</view>
+    <view class="staus" wx:if="{{item.stat==1}}">已支付</view>
+
+    <view class="look_code_pay" wx:if="{{item.stat==0}}">查看砍价</view>
+    <view class="look_code_pay" wx:if="{{item.stat==1}}" bindtap="lookcp">查看测评码</view>
+  </view>
+</view>

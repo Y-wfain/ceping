@@ -1,0 +1,70 @@
+/* pages/evaluationshop/index.wxss */
+
+page {
+  background: rgb(246, 246, 246);
+}
+
+.content {
+  width: 94%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.cont {
+  width: 48%;
+  margin: 20rpx 0;
+}
+
+.img1 {
+  width: 100%;
+  height: 270rpx;
+}
+
+.title {
+  width: 100%;
+  font-size: 30rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  overflow: hidden; /*超出部分隐藏*/
+  text-overflow: ellipsis; /* 超出部分显示省略号 */
+  white-space: nowrap; /*规定段落中的文本不进行换行 */
+}
+
+.txt {
+  font-size: 26rpx;
+  color: gray;
+  overflow: hidden;/*超出部分隐藏*/
+    text-overflow:ellipsis;/* 超出部分显示省略号 */
+    white-space: nowrap;/*规定段落中的文本不进行换行 */
+}
+
+.txt1 {
+  margin-right: 10rpx;
+}
+
+.txt2 {
+  margin-left: 10rpx;
+}
+
+.bot_numpick {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rpx;
+  overflow: hidden;/*超出部分隐藏*/
+    text-overflow:ellipsis;/* 超出部分显示省略号 */
+    white-space: nowrap;/*规定段落中的文本不进行换行 */
+}
+
+.num {
+  font-size: 26rpx;
+  color: gray;
+}
+
+.picke {
+  font-size: 36rpx;
+  color: rgb(254, 104, 0);
+}

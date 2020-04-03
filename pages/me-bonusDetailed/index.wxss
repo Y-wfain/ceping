@@ -1,0 +1,51 @@
+/* pages/me-bonusDetailed/index.wxss */
+page{
+  background: rgb(246, 246, 246)
+}
+.top_tab{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: white;
+  margin-bottom: 10rpx;
+  background: white;
+}
+.top_tab view{
+  width: 33%;
+  text-align: center;
+  line-height: 58rpx;
+}
+.active{
+  color: rgb(254, 101, 0);
+  border-bottom: 2rpx solid rgb(254, 101, 0);
+}
+.cont_list{
+  padding: 30rpx 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2rpx solid rgb(239, 239, 239);
+  background: white;
+}
+.lefft_txt{
+  width: 56%;
+  padding-left:40rpx;
+}
+.name_tit{
+  width: 100%;
+  overflow: hidden;
+  font-size: 30rpx;
+}
+.time_tit{
+  font-size: 26rpx;
+  color: gray;
+  margin-top:20rpx;
+}
+.money{
+  color: red;
+  font-size: 34rpx;
+  margin-right: 40rpx;
+}

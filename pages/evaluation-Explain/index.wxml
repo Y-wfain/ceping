@@ -1,0 +1,23 @@
+<view class="cont" style="height:{{height}}px">
+  <image class="img1" style="height:{{height}}px" src="http://47.94.12.97:8099/img/e061bb7812c5c9ef85532d851f028a7.png"></image>
+  <view class="content">
+    <view class="title">
+
+     <view class="txt_title"> 潜 能 测 试 答 题 说 明 </view> 
+     <view class="txt_engligs"> POTENTIAL ENERGY ANSWER TOEXPLAIN</view>
+    </view>
+    <view class="txt">
+    <view>1、	本测试是专业化的心理测试，共约500道题，包括四套测试题目，分别是潜能测试一、二、三、四，都是单选题，全部答完需时约在80分钟左右。</view>  
+    <view>2、	请选择一个安静的环境，精神集中地回答。如答题过程中有干扰，可以暂时中断，系统会自动保存已回答过的问题，下次可续答；如果是误答，想修改，点击上一页。</view>
+    <view>3、	本测试都是有关个人看法与态度的问题，如没有特别说明，没有“正确”或“错误”之分；请不要费时斟酌，应当顺其自然地依你个人的第一反应轻松地选答，这样对你的分析和建议就越能反映你的真实面貌。</view>
+    <view>4、	一般地说来，问题都很简短而不能包含所有有关的因素或条件，因此你的回答应就一般情况而言。除非在万不得已的情形下，请尽量不要选择折中性的答案。</view>
+    <view>5、 请不要遗漏，务必对每一个问题作答。有些问题似乎不符合于你，有些问题又似乎涉及隐私，但本测验的目的，在于发现你的潜能，希望应试者真实作答。</view>
+    <view>6、 作答时，不要受其他人的影响，要独立回答。四套测试题回答方式都不太相同，请看清说明后，快速回答</view>
+    <view></view>
+    <view></view>
+    <view></view>
+    <view></view>
+    </view>
+  </view>
+  <image bindtap="godati" class="img_2" src="../../image/dianjicep@2x.png"></image>
+</view>

@@ -1,0 +1,10 @@
+<view class="nav_cont">
+  <input class="input_num" placeholder="请输入测评码" bindinput="inpval" value="{{val_inp}}" />
+  <view class="queSub" bindtap="submit">进入答题</view>
+</view>
+<!-- <view class="ceshimi">*测试测评码：123456(测试阶段)</view> -->
+<view class="ceshimi">*可通过右下角获取测评码购买测评码</view>
+<view class="bottom_btn">
+  <view class="deelit_cep" bindtap="explainFn">测评说明</view>
+  <view class="sccerion_code" bindtap="scre_code">获取测评码</view>
+</view>

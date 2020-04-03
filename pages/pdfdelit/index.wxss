@@ -1,0 +1,7 @@
+/* pages/pdfdelit/index.wxss */
+.viebtn{
+  width: 90%;
+  font-size: 34rpx;
+  text-align: center;
+  margin: 100rpx auto;
+}

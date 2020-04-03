@@ -1,0 +1,51 @@
+<view class="searchBox">
+  <swiper class='shop_swiper' indicator-dots autoplay="true" indicator-active-color="#fff" interval="3000" duration="1000" circular='true' hidden='{{luboActive}}' class='lbImg'>
+    <block wx:for="{{img}}" wx:key="">
+      <swiper-item class="imgheight">
+        <image src="{{item.imgs}}" class='lbImg' data-id='{{item.id}}' data-id="{{item.id}}" data-activities_id='{{item.activities_id}}' bindtap='goChannel' />
+      </swiper-item>
+    </block>
+
+  </swiper>
+  <view class="posit_time">
+    <view class="pick">￥56元</view>
+    <view class="txt_time" wx:if="{{is_timestatus}}">砍价结束还剩{{countdown.day}}天 {{countdown.hour}}:{{countdown.minute}}:{{countdown.second}} </view>
+    <view class="txt_time" wx:if="{{!is_timestatus}}"></view>
+  </view>
+</view>
+<view class="delit_shop">
+  <view class="left_txt">
+    <view class="title">产品名称：生涯测评</view>
+    <view class="title_txt">已有1人参加砍价</view>
+  </view>
+  <view class="right_txt">
+    <image class="img_liu1" src="../../image/ce7f2fd1a80a5a6cf0a5fe34f4acda2.png"></image>
+    <view class="bot_user_txt">
+      <view class="txt_user">邀请好有砍价</view>
+      <image class="img_jt" src="../../image/3c6caf9c8030e79fb64afee1cbbdd39.png"></image>
+      <view class="txt_user">砍到价后支付</view>
+    </view>
+  </view>
+</view>
+<view class="shop_deelit_txt">
+  <view class="shopdelit">
+    商品详情:
+  </view>
+  <view class="shopdelittxt">
+    商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情
+  </view>
+</view>
+<view class="shop_deelit_txt">
+  <view class="shopdelit">
+    活动规则:
+  </view>
+  <view class="shopdelittxt">
+   活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则活动规则
+  </view>
+</view>
+<view style="width:100%;height:150rpx;"></view>
+<view></view>
+<view class="bot_fixd_btn">
+  <view class="goshop" bindtap="goshop">直接购买</view>
+  <view class="gokanjia" bindtap="gokanFn">立即砍价</view>
+</view>

@@ -1,0 +1,117 @@
+/* pages/index-listletter/index.wxss */
+
+page {
+  /* background: url(http://47.94.12.97:8099/img/kaoshenglaixin.png) no-repeat center;
+  background-size: 100%; */
+  background: rgb(254, 101, 0);
+}
+
+.cont {
+  width: 100%;
+  position: relative;
+  margin-top: -1rpx;
+}
+
+.img_bgc {
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.content {
+  position: absolute;
+  left: 5%;
+  z-index: 2;
+  width: 90%;
+  background: white;
+  border-radius: 20rpx;
+  padding: 40rpx 0;
+  margin: 0 auto;
+  margin-top: 200rpx;
+}
+
+.top_title {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  height: 100rpx;
+}
+
+.img_img1 {
+  position: absolute;
+  width: 100%;
+  height: 40rpx;
+  top: 20rpx;
+}
+
+.title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 42rpx;
+  font-weight: 600;
+  color: rgb(251, 62, 45);
+  margin-top: 10rpx;
+}
+
+.cont_list {
+  width: 96%;
+  margin: 0 auto;
+  position: relative;
+  /* padding: 10rpx; */
+  height: 150rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(http://47.94.12.97:8099/img/1193cd962dda6a832073ce5231febe3.png) no-repeat center;
+  background-size: 100%;
+  border-radius: 20rpx;
+}
+
+/* .list_img{
+  width:100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 1;
+} */
+
+.list {
+  /* position: absolute; *//* top:15rpx;
+  left:5%; */
+  width: 90%;
+  height: 120rpx;
+  /* z-index: 2; */
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.img_user {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 16rpx;
+}
+
+.user_delit {
+  margin-left: 2%;
+  font-size: 28rpx;
+  color: white;
+  width: 64%
+}
+
+.user_delit view {
+  width: 100%;
+overflow: hidden;
+text-overflow: ellipsis;
+display:-webkit-box;
+-webkit-box-orient:vertical;
+-webkit-line-clamp:1; 
+
+}

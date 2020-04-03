@@ -1,0 +1,104 @@
+<!-- 第一套 -->
+<view class="cont" style="" wx:if="{{cont==1}}">
+  <view class="rid_top">
+    <view class="greey">{{cont}}</view>
+  </view>
+  <view class="title">
+    <text></text>{{cont_txt}}
+  </view>
+  <view class="count_xunze">
+    <view class="{{tid==1?'active':''}}" data-id="1" data-a="A" bindtap="clickFn">
+      <text>①</text> 非常不符合</view>
+    <view class="{{tid==2?'active':''}}" data-id="2" data-a="B" bindtap="clickFn">
+      <text>②</text> 比较不符合</view>
+    <view class="{{tid==3?'active':''}}" data-id="3" data-a="C" bindtap="clickFn">
+      <text>③</text> 一般</view>
+    <view class="{{tid==4?'active':''}}" data-id="4" data-a="D" bindtap="clickFn">
+      <text>④</text> 比较符合</view>
+    <view class="{{tid==5?'active':''}}" data-id="5" data-a="E" bindtap="clickFn">
+      <text>⑤</text> 非常符合</view>
+  </view>
+
+</view>
+<!-- 第二套 -->
+<view class="cont" style="" wx:if="{{cont==2}}">
+  <view class="rid_top">
+    <view class="greey">{{cont}}</view>
+  </view>
+  <view class="title1">
+    <view>{{nums}}、</view>
+    <view>
+      <view class="view1">{{opA}}
+        <text wx:if="{{oid}}" style="color:white;margin-left:20rpx;">{{oid}}</text>
+      </view>
+      <view class="view1">{{opB}}
+        <text wx:if="{{fid}}" style="color:white;margin-left:20rpx;">{{fid}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="count_xunze1">
+    <view class="nav {{classid==0?'active2':''}}" bindtap="navFn" data-a="A" data-B="A" data-classid="0" data-oid="0" data-fid="3">
+      <view>0</view>
+      <view>3</view>
+    </view>
+    <view class="nav {{classid==1?'active2':''}}" bindtap="navFn" data-classid="1" data-oid="1" data-fid="2">
+      <view>1</view>
+      <view>2</view>
+    </view>
+    <view class="nav {{classid==2?'active2':''}}" bindtap="navFn" data-classid="2" data-oid="2" data-fid="1">
+      <view>2</view>
+      <view>1</view>
+    </view>
+    <view class="nav {{classid==3?'active2':''}}" bindtap="navFn" data-classid="3" data-oid="3" data-fid="0">
+      <view>3</view>
+      <view>0</view>
+    </view>
+  </view>
+</view>
+<!-- 第三套 -->
+<view class="cont" style="" wx:if="{{cont==3}}">
+  <view class="rid_top">
+    <view class="greey">{{cont}}</view>
+  </view>
+  <view class="title">
+    <text></text> {{cont_txt}}
+  </view>
+  <view class="count_xunze">
+    <view class="{{tid3==1?'active':''}}" data-a="A" data-id="1" bindtap="clickFn3">
+      <text>①</text> 非常不符合</view>
+    <view class="{{tid3==2?'active':''}}" data-a="B" data-id="2" bindtap="clickFn3">
+      <text>②</text> 不符合</view>
+    <view class="{{tid3==3?'active':''}}" data-a="C" data-id="3" bindtap="clickFn3">
+      <text>③</text> 比较不符合</view>
+    <view class="{{tid3==4?'active':''}}" data-a="D" data-id="4" bindtap="clickFn3">
+      <text>④</text> 一般</view>
+    <view class="{{tid3==5?'active':''}}" data-a="E" data-id="5" bindtap="clickFn3">
+      <text>⑤</text> 比较符合</view>
+    <view class="{{tid3==6?'active':''}}" data-a="F" data-id="6" bindtap="clickFn3">
+      <text>⑥</text> 符合</view>
+    <view class="{{tid3==7?'active':''}}" data-a="G" data-id="7" bindtap="clickFn3">
+      <text>⑦</text> 非常符合</view>
+  </view>
+</view>
+<!-- 第四套 -->
+<view class="cont" style="" wx:if="{{cont==4}}">
+  <view class="rid_top">
+    <view class="greey">{{cont}}</view>
+  </view>
+  <view class="title">
+    <text></text> {{cont_txt}}
+  </view>
+  <view class="count_xunze">
+    <view class="{{tid4=='A'?'active':''}}" data-id="1" data-a="A" bindtap="clickFn4">
+      <text style="font-size32rpx;"></text> {{opA}}</view>
+    <view class="{{tid4=='B'?'active':''}}" data-id="2" data-a="B" bindtap="clickFn4">
+      <text  style="font-size32rpx;"></text> {{opB}}</view>
+    <view class="{{tid4=='C'?'active':''}}" data-id="3" data-a="C" bindtap="clickFn4">
+      <text  style="font-size32rpx;"></text> {{opC}}</view>
+  </view>
+</view>
+<view class="bottt">
+  <view class="top_page" bindtap="toppage">上一页</view>
+  <view class="nums">{{nums}}</view>
+  <view class="bot_page" bindtap="pagebot">下一页</view>
+</view>

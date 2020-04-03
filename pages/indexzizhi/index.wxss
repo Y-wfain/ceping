@@ -1,0 +1,11 @@
+/* pages/indexzizhi/index.wxss */
+.img{
+  width: 90%;
+  margin: 0 auto;
+  height: 500rpx;
+  margin-top:50rpx;
+}
+.img image{
+  width: 100%;
+  height: 100%;
+}

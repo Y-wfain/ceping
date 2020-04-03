@@ -1,0 +1,31 @@
+<view class="shop">
+  <image class="img1" src="../../image/tu@22x.png"></image>
+  <view class="right_txt">
+    <view class="top_txt">
+      <view class="title">产品名称：生涯测评</view>
+      <view class="picker">￥56</view>
+    </view>
+    <!-- <view class="nums">×{{nums}}</view> -->
+    <view class="num_sub">
+      <view class="num_txt">数量：</view>
+      <view class="sub_numstxt">
+        <view class="jie" bindtap="jieFn">-</view>
+        <input class="inp1" bindinput="inpnum" value="{{nums}}" />
+        <view class="jia" bindtap="jiaFn">+</view>
+      </view>
+    </view>
+    <view class="txt">
+     <view class="coun_nums">共 <text style="color:rgb(254,101,0)">1</text>件商品</view>
+     <view class="countpicker">合计： <text style="color:rgb(254,101,0)">￥{{count}}</text></view>
+    </view>
+  </view>
+</view>
+<view class="shop_deelit_txt">
+  <view class="shopdelit">
+    团购说明:
+  </view>
+  <view class="shopdelittxt">
+   团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明团购说明
+  </view>
+</view>
+<view class="gosub"> 立即支付</view>

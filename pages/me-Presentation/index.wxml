@@ -1,0 +1,29 @@
+<view class="cont" wx:for="{{list}}">
+  <!-- <image class="img1" src="../../image/touxiang@2x.png"></image> -->
+  <view class="right_cont">
+    <!-- <view>姓名：陈同学</view>
+    <view>性别：女</view>
+    <view>年龄：23</view>
+    <view>毕业高中：人大附中高三11班</view> -->
+    <view>测试时间：{{item.createTime}}</view>
+  </view>
+   <view class="look_txts" bindtap="copy" data-pdf="{{item.path}}">
+    复制pdf链接
+  </view>
+  <view class="look_txt" bindtap="btn" data-pdf="{{item.path}}">
+    查看报告
+  </view>
+</view>
+<!-- <view class="cont">
+  <image class="img1" src="../../image/touxiang@2x.png"></image>
+  <view class="right_cont">
+    <view>姓名：陈同学</view>
+    <view>性别：女</view>
+    <view>年龄：23</view>
+    <view>毕业高中：人大附中高三11班</view>
+    <view>测试时间：2019年4月21日</view>
+  </view>
+  <view class="look_txt">
+    继续测评
+  </view>
+</view> -->

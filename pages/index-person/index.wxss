@@ -1,0 +1,78 @@
+/* pages/index-letter/index.wxss */
+page{
+  background: rgb(246, 246, 246);
+}
+.top_user{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top:50rpx;
+  position: relative;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid rgb(224, 225, 225);
+}
+.tit1{
+  font-weight: 600;
+}
+.left{
+  width: 4%;
+  /* height: 200rpx; */
+   background: rgb(246, 246, 246);
+   position: absolute;
+   right: 0;
+
+}
+.left view{
+  width: 100%;
+  height: 30rpx;
+  margin-top:40rpx;
+  background: rgb(255, 226, 0);
+}
+.img2{
+  width:120rpx;
+  height: 120rpx;
+  border-radius: 100%;
+  margin-left:4%;
+  border:4rpx solid rgb(254, 102, 0);
+}
+.user_txt{
+  margin-left:2%;
+  width: 70%;
+  overflow: hidden;
+}
+.user_txt view{
+  padding: 6rpx 0;
+  /* overflow:hidden; 
+text-overflow:ellipsis; 
+white-space:nowrap;  */
+}
+.img3{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  top:56%;
+  left:-3.4%;
+}
+.img4{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  top:40%;
+  right:-5%;
+}
+.txt_cont{
+  width: 78%;
+  margin:0 auto;
+  margin-top:30rpx;
+  margin-bottom:30rpx;
+  font-size: 28rpx;
+  color:gray;
+  overflow: hidden;
+}
+.pag{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}

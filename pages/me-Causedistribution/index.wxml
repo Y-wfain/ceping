@@ -1,0 +1,51 @@
+<view class="top_money">
+  累计佣金 23
+</view>
+<view class="nav">
+  <view class="viewtbar {{tabid == 0?'active':''}}" data-id="0" bindtap="nav_tbar">所有</view>
+  <view class="viewtbar {{tabid == 1?'active':''}}" data-id="1" bindtap="nav_tbar">待付款</view>
+  <view class="viewtbar {{tabid == 2?'active':''}}" data-id="2" bindtap="nav_tbar">已付款</view>
+  <view class="viewtbar {{tabid == 3?'active':''}}" data-id="3" bindtap="nav_tbar">已完成</view>
+</view>
+<view class="content">
+  <image class="img1" src="../../image/tu@22x.png"></image>
+  <view class="cent">
+    <view class="title">栋梁生涯测评</view>
+    <view class="delit_txt">
+      <text style="padding-right:20rpx;">高中生</text>|
+      <text style="padding-left:20rpx;">高考选择</text>
+    </view>
+  </view>
+  <view class="right">
+    <view class="stats">待付款</view>
+    <view class="money">￥56</view>
+  </view>
+</view>
+<view class="content">
+  <image class="img1" src="../../image/tu@22x.png"></image>
+  <view class="cent">
+    <view class="title">栋梁生涯测评</view>
+    <view class="delit_txt">
+      <text style="padding-right:20rpx;">高中生</text>|
+      <text style="padding-left:20rpx;">高考选择</text>
+    </view>
+  </view>
+  <view class="right">
+    <view class="stats">已付款</view>
+    <view class="money">￥56</view>
+  </view>
+</view>
+<view class="content">
+  <image class="img1" src="../../image/tu@22x.png"></image>
+  <view class="cent">
+    <view class="title">栋梁生涯测评</view>
+    <view class="delit_txt">
+      <text style="padding-right:20rpx;">高中生</text>|
+      <text style="padding-left:20rpx;">高考选择</text>
+    </view>
+  </view>
+  <view class="right">
+    <view class="stats">已完成</view>
+    <view class="money">￥56</view>
+  </view>
+</view>

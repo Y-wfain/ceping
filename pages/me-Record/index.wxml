@@ -1,0 +1,33 @@
+<view class="cont_list">
+  <view class="fenxi">分销等级：一级</view>
+  <view class="code_bianhao">提现编号:SHE202001155987</view>
+  <view class="tiem_tits">提现时间：2020-01-15</view>
+  <view class="tixian_money">预计提现金额：+230</view>
+</view>
+<view class="cont_list">
+  <view class="fenxi">分销等级：一级</view>
+  <view class="code_bianhao">提现编号:SHE202001155987</view>
+  <view class="tiem_tits">提现时间：2020-01-15</view>
+  <view class="tixian_money">预计提现金额：+230</view>
+</view>
+<view class="cont_list">
+  <view class="fenxi">分销等级：一级</view>
+  <view class="code_bianhao">提现编号:SHE202001155987</view>
+  <view class="tiem_tits">提现时间：2020-01-15</view>
+  <view class="tixian_money">预计提现金额：+230</view>
+</view>
+<view class="cont_list">
+  <view class="fenxi">分销等级：一级</view>
+  <view class="code_bianhao">提现编号:SHE202001155987</view>
+  <view class="tiem_tits">提现时间：2020-01-15</view>
+  <view class="tixian_money">预计提现金额：+230</view>
+</view>
+<!-- <view class="cont_list">
+  <view class="lefft_txt">
+    <view class="name_tit">提现XXX奖励</view>
+    <view class="time_tit">2019-05-06</view>
+  </view>
+  <view class="money">
+    +150
+  </view> 
+</view> -->

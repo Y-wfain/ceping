@@ -1,0 +1,34 @@
+<image class="img1" style="height:{{height}}px" src="http://47.94.12.97:8099/img/fa7dc97073daeb6246c9f2b06c2ef48.png"></image>
+
+<view class="btn">
+  <view class="cont" bindtap="cepinbind">
+    <image style="width:86rpx;height:90rpx" src="../../image/cep2.png"></image>
+    <view class="right">
+      <view class="tit">测评</view>
+      <view class="txt">栋梁测评IMAP，通过回答500道心里测试题，将得到一份30多页的生涯发展评估报告</view>
+    </view>
+  </view>
+  <view class="cont" bindtap="goshop">
+    <image style="height:84rpx" src="../../image/cep1.png"></image>
+    <view class="right">
+      <view class="tit">购买</view>
+      <view class="txt">栋梁测评IMAP，通过回答500道心里测试题，将得到一份30多页的生涯发展评估报告</view>
+    </view>
+  </view>
+</view>
+<view style="width:100%;height:100rpx;"></view>
+<view class="taber">
+<image class="img1_fied" src="../../image/0a82b8764eeab5240b2e649498e8aac.png"></image>
+  <view class="index" bindtap="indexFn">
+    <image src="../../image/a118a27a33aed1027665beee654c999.png"></image>
+    <view >首页</view>
+  </view>
+  <view class="cep" bindtap="cepfn">
+    <image src="../../image/cep@2x.png"></image>
+    <view >测评</view>
+  </view>
+  <view class="me" bindtap="meFn">
+    <image src="../../image/wode@2x.png"></image>
+    <view>我的</view>
+  </view>
+</view>

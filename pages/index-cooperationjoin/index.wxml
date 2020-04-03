@@ -1,0 +1,42 @@
+<view class="list_inp">
+  <view class="tit">姓名</view>
+  <input bindinput="nameuser" class="inp" value="{{nameuser}}" placeholder="请输入姓名" />
+</view>
+<view class="list_inp">
+  <view class="tit">年龄</view>
+  <input bindinput="agefn" class="inp" value="{{ageuser}}" placeholder="请输入年龄" />
+</view>
+<view class="list_inp">
+  <view class="tit">性别</view>
+  <view class="main-item-input">
+    <picker bindchange="pickerProChange" value="{{ pickerProData.index }}" range="{{ pickerProData.items }}">
+      <view class="picker-area-text">
+        {{pickerProData.items[pickerProData.index]}}
+      </view>
+    </picker>
+    <!-- <view class="rigt_txt"></view> -->
+  </view>
+</view>
+<view class="list_inp">
+  <view class="tit">地址</view>
+  <view class="main-item-input">
+    <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+      <view class="picker-area-text" wx:if="{{region!=''}}">
+        {{region[0]}}{{region[1]}}{{region[2]}}
+      </view>
+      <view class="picker-area-text" wx:else>请选择</view>
+    </picker>
+    <!-- <view class="rigt_txt"></view> -->
+  </view>
+</view>
+<view class="list_inp">
+  <view class="tit">电话</view>
+  <input bindinput="phone" type="number" class="inp" value="{{phoneuser}}" placeholder="请输入电话" />
+</view>
+<view class="list_inp">
+  <view class="tit">单位</view>
+  <input bindinput="addFn" type="text" class="inp" value="{{txtvaleu}}" placeholder="请输入单位" />
+</view>
+<view class="sub_mit">
+  提交
+</view>

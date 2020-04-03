@@ -1,0 +1,129 @@
+/* pages/index-about/index.wxss */
+
+.top_cont {
+  width: 86%;
+  margin: 0 auto;
+  padding: 20rpx 0;
+}
+
+.img1 {
+  width: 220rpx;
+  height: 220rpx;
+  margin: 0 auto;
+}
+
+.img1 image {
+  width: 100%;
+  height: 100%;
+}
+
+.cont_topdelit {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20rpx 0;
+  border: 4rpx solid rgb(254, 101, 0);
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+}
+
+.vie_img2 {
+  width: 80%;
+  margin-left: -10%;
+  height: 80rpx;
+  position: relative;
+  margin-bottom: 20rpx;
+}
+
+.vie_tit {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  line-height: 80rpx;
+  text-align: center;
+  color: white;
+}
+
+.img2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.tit {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20rpx 0;
+}
+
+.img3 {
+  width: 160rpx;
+  height: 80rpx;
+  margin-left: 20rpx;
+}
+
+.bot_cont {
+  width: 80%;
+  margin: 0 auto;
+  /* margin-left: 6%; */
+  padding: 20rpx 0;
+  border: 4rpx solid rgb(254, 101, 0);
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+}
+
+.vie_img3 {
+  width: 80%;
+  margin-right: -10%;
+  height: 80rpx;
+  position: relative;
+  /* margin-bottom: 20rpx; */
+  float: right;
+  margin-bottom: 30rpx;
+}
+.vie_img3 .img4{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top:0;
+  z-index: 1;
+}
+.vie_tit{
+   width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top:0;
+  z-index: 2;
+}
+.tit view{
+  margin-bottom:50rpx;
+}
+.bot_ma{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:50rpx;
+  margin-bottom:50rpx;
+}
+.img_1{
+  width: 130rpx;
+  height: 200rpx;
+  margin-right:2%;
+}
+.img_2{
+  width: 200rpx;
+  height:200rpx;
+}
+.img_3{
+  width: 90rpx;
+  height:200rpx;
+   margin-left:1%;
+}

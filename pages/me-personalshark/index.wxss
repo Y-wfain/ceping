@@ -1,0 +1,126 @@
+/* pages/me-personalshark/index.wxss */
+
+page {
+  background: rgb(246, 246, 246);
+}
+
+.top_uers {
+  width: 100%;
+  height: 210rpx;
+  position: relative;
+}
+
+.img_bcg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.cont_user {
+  position: absolute;
+  left: 5%;
+  top: 0;
+  z-index: 2;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.img_userhead {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.active1 {
+  background: rgb(254, 115, 0);
+}
+
+.active {
+  background: gray;
+}
+
+.rigth_user {
+  width: 60%;
+  margin-left: 4%;
+  color: white;
+}
+
+.name_user {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.nav_content {
+  width: 90%;
+  background: white;
+  margin: 0 auto;
+  /* height: 600rpx; */
+  border-radius: 20rpx;
+  margin-top: 30rpx;
+}
+
+.list_cont {
+  width: 96%;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid rgb(238, 238, 238);
+  margin: 0 auto;
+}
+
+.left_img {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.txt {
+  width: 70%;
+  overflow: hidden;
+  margin-left: 4%;
+}
+
+.right_txt {
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  transform: rotate(45deg);
+}
+
+.cont_tixian {
+  width: 90%;
+  padding: 20rpx 0;
+  background: white;
+  margin: 0 auto;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tixian_txt {
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  color: rgb(36, 35, 35);
+}
+
+.txt_mon {
+  color: rgb(0, 0, 0);
+}
+
+.tixian_btn {
+  margin-right: 20rpx;
+  padding: 10rpx 20rpx;
+  color: white;
+  /* background: rgb(254, 115, 0); */
+  border-radius: 10rpx;
+}

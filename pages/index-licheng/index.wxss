@@ -1,0 +1,98 @@
+/* pages/index-research/index.wxss */
+.cont_1{
+  width: 94%;
+  height: 2360rpx;
+  position: relative;
+  /* background: red; */
+  margin: 0 auto;
+  margin-top:20rpx;
+}
+.img1{
+  position: absolute;
+  top:0;
+  left:3%;
+  width: 94%;
+  height: 2360rpx;
+}
+.img4{
+  position: absolute;
+  top:0;
+  left:3%;
+  width: 94%;
+  height: 450rpx;
+}
+.img2{
+  position: absolute;
+  width: 100%;
+  left:0;
+  /* top:10%; */
+  /* left:10%;
+  top:5%; */
+  height: 90rpx;
+}
+.view1{
+    position: relative;
+  width: 80%;
+  /* left:10%;
+  top:4.5%; */
+  height: 90rpx;
+  text-align: center;
+  overflow: hidden;
+  line-height: 80rpx;
+  margin:0 auto;
+  padding-top:14%;
+
+}
+.img3{
+  position: absolute;
+  top:12%;
+  right:8%;
+  width: 100rpx;
+  height: 100rpx;
+}
+.view2{
+  width: 80%;
+  margin:0 auto;
+  display: flex;
+  align-items: center;
+  margin-top:20rpx;
+  /* position: absolute; */
+  /* left: */
+}
+.rido{
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 100%;
+  background: rgb(255, 116, 0);
+  margin-right: 10rpx;
+}
+.txt{
+  color: rgb(255, 116, 0);
+  font-size: 30rpx;
+}
+.txt1{
+  width: 70%;
+  margin:0 auto;
+  display: flex;
+  align-items: center;
+  margin-top:20rpx;
+  font-size: 26rpx;
+
+}
+.cont_2{
+  width: 94%;
+  height: 450rpx;
+  position: relative;
+  /* background: red; */
+  margin: 0 auto;
+  margin-top:80rpx;
+  margin-bottom: 100rpx;
+  padding-bottom: 50rpx;
+}
+.img5{
+   position: absolute;
+  top:-18%;
+  left:0%;
+  width: 100rpx;
+  height: 100rpx;
+}

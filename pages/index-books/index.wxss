@@ -1,0 +1,19 @@
+/* pages/index-books/index.wxss */
+.cont{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+
+}
+.cont_cont_img{
+  width: 50%;
+  text-align: center;
+  height:270rpx;
+  margin:20rpx 0;
+}
+.cont_cont_img image{
+  width: 190rpx;
+  height: 270rpx;
+}

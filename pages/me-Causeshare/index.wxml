@@ -1,0 +1,27 @@
+<!-- <view class="bgccolr">
+
+</view> -->
+<view class="backgoud" style="height:{{height}}px">
+  <image class="img1" style="height:{{height}}px" src="http://47.94.12.97:8099/img/dedc050614fb1958e69c844154995b9.png"></image>
+  <view class="cont_">
+    <view class="cont_ent">
+      <image class="img_log" src="http://47.94.12.97:8099/img/LOGO@2x.png"></image>
+      <view class="right">
+        <view class="title">栋梁生涯测评</view>
+        <view class="title_tit">高中生生涯发展指导</view>
+        <view class="txt">
+          智栋梁是一家以心理测评为主导，为学生提供生涯发 展指导、学习潜能开发等服务的教育研究院，秉承“人 人都有巨大的潜能，人人都能成功”的教育理念，为学 生进行人生规划指导及学习潜能开发。
+        </view>
+      </view>
+
+    </view>
+
+    <view class="border"></view>
+
+    <view class="img_img">
+      <image src="http://47.94.12.97:8099/img/42c8ff4649f8e3f8795844e8eaddf30.png"></image>
+    </view>
+    <view class="bind_ma" bindtap="bindimg">保存二维码</view>
+  </view>
+
+</view>

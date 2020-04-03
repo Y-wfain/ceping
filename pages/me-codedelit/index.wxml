@@ -1,0 +1,26 @@
+<view class="top_rideo">
+  <!-- <view class="piliang" bindtap="riods">
+    <radio checked="{{ridos === '1' ? 'true' : ''}}" value="1"></radio>
+    <view class="txt {{ridos==1?'active':''}}">批量选择</view>
+  </view> -->
+  <view class="cont_all" bindtap="">
+    <checkbox value="2" bindtap="selectall" />
+    <view class="txt {{ridos==2?'active':''}}">全选</view>
+  </view>
+</view>
+<checkbox-group bindchange="checkboxChange">
+  <view class="contlist_code" wx:for="{{listData}}" data-codeid="{{item.code}}" >
+    <checkbox value="{{item.code}}" checked="{{item.checked}}" class="chend">
+    <view class="code_cont">
+      <view class="tit_delit">
+        <view class="code_num">{{item.code}}</view>
+        <view class="gotime">购买时间：2019-03-20</view>
+        <view class="endtime">使用时间：2019-03-20</view>
+      </view>
+      <view class="status">未使用</view>
+    </view>
+    </checkbox>
+  </view>
+</checkbox-group>
+<view style="width:100%;height:100rpx;"></view>
+<view class="copy"  bindtap='copyText' data-text="{{batchIds}}">复制</view>

@@ -1,0 +1,54 @@
+
+<view class="list_inp">
+  <view class="tit">姓名</view>
+  <input bindinput="nameuser" class="inp" value="{{username}}" placeholder="请输入姓名" />
+</view>
+<view class="list_inp">
+  <view class="tit">年龄</view>
+  <!-- <input bindinput="agefn" type="number" class="inp" value="{{niannum}}" placeholder="请输入16-19之间的年龄" /> -->
+  <view class="main-item-input">
+    <picker bindchange="pickerProChangenum" value="{{ pickerProDatanum.index }}" range="{{ pickerProDatanum.items }}">
+      <view class="picker-area-text">
+        {{pickerProDatanum.items[pickerProDatanum.index]}}
+      </view>
+    </picker>
+    <!-- <view class="rigt_txt"></view> -->
+  </view>
+</view>
+<view class="txtssi">*选错会影响测评结果，要慎重！</view>
+<view class="list_inp">
+  <view class="tit">性别</view>
+  <view class="main-item-input">
+    <picker bindchange="pickerProChange" value="{{ pickerProData.index }}" range="{{ pickerProData.items }}">
+      <view class="picker-area-text">
+        {{pickerProData.items[pickerProData.index]}}
+      </view>
+    </picker>
+    <!-- <view class="rigt_txt"></view> -->
+  </view>
+</view>
+<view class="txtssi">*选错会影响测评结果，要慎重！</view>
+<view class="list_inp">
+  <view class="tit">地址</view>
+  <view class="main-item-input">
+    <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+      <view class="picker-area-text" wx:if="{{region!=''}}">
+        {{region[0]}}{{region[1]}}{{region[2]}}
+      </view>
+      <view class="picker-area-text" wx:else>请选择</view>
+    </picker>
+    <!-- <view class="rigt_txt"></view> -->
+  </view>
+</view>
+<view class="list_inp">
+  <view class="tit">电话</view>
+  <input bindinput="phone" type="number" class="inp" value="{{userphone}}" placeholder="请输入电话" />
+</view>
+<view class="list_inp">
+  <view class="tit">学校</view>
+  <input bindinput="addFn" type="text" class="inp" value="{{usershcool}}" placeholder="请输入学校" />
+</view>
+<!-- <view class="txtssi">*年龄和性别选错会影响测评结果，要慎重！</view> -->
+<view class="sub_mit" bindtap="submit">
+  下一步
+</view>

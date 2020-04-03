@@ -1,0 +1,54 @@
+page{
+  background: rgb(248, 248, 248);
+}
+.cont_list{
+  width: 90%;
+  margin: 0 auto;
+  padding: 20rpx;
+  background: white;
+  margin-top:20rpx;
+  border-radius: 10rpx;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  border-bottom: 2rpx solid rgb(239, 239, 239);
+}
+.lefft_txt{
+  width: 56%;
+  padding-left:40rpx;
+}
+.name_tit{
+  width: 100%;
+  overflow: hidden;
+  font-size: 30rpx;
+}
+.time_tit{
+  font-size: 26rpx;
+  color: gray;
+  margin-top:20rpx;
+}
+.money{
+  color: red;
+  font-size: 34rpx;
+  margin-right: 40rpx;
+}
+.fenxi{
+  font-size: 28rpx;
+  margin-bottom: 4rpx;
+}
+.code_bianhao{
+  color: rgb(80, 80, 80);
+   margin-bottom: 4rpx;
+   font-size: 26rpx;
+}
+.tiem_tits{
+   color: rgb(112, 112, 112);
+   margin-bottom: 4rpx;
+   font-size: 24rpx;
+}
+.tixian_money{
+  text-align: right;
+  font-size: 30rpx;
+  color: rgb(254, 115, 0);
+  margin-bottom: 6rpx;
+}

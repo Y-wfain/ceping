@@ -1,0 +1,5 @@
+<!--pages/pdfdelit/index.wxml-->
+<block wx:if="{{pdf}}">
+<view class="viebtn" bindtap="btn" data-pdf="{{pdf}}">pdf成功生成! <text style="color:blue">点击查看</text></view>
+<view class="viebtn" bindtap="btn_web">您也可以 <text style="color:blue">复制链接</text>在浏览器中下载pdf</view>
+</block>

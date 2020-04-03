@@ -1,0 +1,58 @@
+/* pages/me-user/index.wxss */
+
+.list_inp {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20rpx 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tit {
+  width: 20%;
+}
+.txtssi{
+  font-size: 24rpx;
+  color: red;
+  padding-left:39%;
+
+}
+.inp {
+  width: 60%;
+  border: 2rpx solid gray;
+  padding: 10rpx;
+  border-radius: 10rpx;
+}
+
+.main-item-input {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2rpx solid gray;
+  padding: 10rpx;
+  border-radius: 10rpx;
+}
+.picker-area-text{
+  width: 300rpx;
+}
+.rigt_txt {
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  transform: rotate(45deg);
+}
+.sub_mit{
+  width: 220rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 30rpx;
+  color: white;
+  background: rgb(254, 103, 0);
+  text-align: center;
+  margin: 0 auto;
+  margin-top:100rpx;
+  border-radius: 20rpx;
+}

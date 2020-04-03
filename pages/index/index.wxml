@@ -1,0 +1,134 @@
+<view class="Shouquan" wx:if="{{!hasUserInfo}}">
+  <view class="titless">
+    提示 ！
+  </view>
+  <view class="cont_tltsops">
+    您还未授权请先授权！
+  </view>
+  <view class="btn_button">
+    <view class="quxiao_btn" bindtap="ggopfn">
+      取消
+    </view>
+    <button class="butn_bottys" open-type="getUserInfo" bindgetuserinfo="getUserInfo">去授权 </button>
+  </view>
+</view>
+<view class="opsbjc" wx:if="{{!hasUserInfo}}" bindtap="ggopfn">
+</view>
+<!-- 轮播 -->
+<view class="searchBox">
+  <swiper class='shop_swiper' indicator-dots autoplay="true" indicator-active-color="#fff" interval="3000" duration="1000" circular='true' hidden='{{luboActive}}' class='lbImg'>
+    <block wx:for="{{img}}" wx:key="">
+      <swiper-item class="imgheight">
+        <image src="{{item.imgs}}" class='lbImg' data-id='{{item.id}}' data-id="{{item.id}}" data-activities_id='{{item.activities_id}}' bindtap='goChannel' />
+      </swiper-item>
+    </block>
+
+  </swiper>
+</view>
+<!-- cont -->
+<view class="nav">
+  <view class="nav_cont" wx:for="{{nav_cont}}" bindtap="bintnav" data-id="{{item.id}}">
+    <image src="{{item.imgcont}}"></image>
+    <view>{{item.txt}}</view>
+  </view>
+</view>
+<!-- 图片橱窗 -->
+<view class="window_img">
+  <view class="left_ceping" bindtap="cepingFN">
+    <image class="ce_img" src="../../image/062c187ff1520426846ac63504b4439.png"></image>
+  </view>
+  <view class="right_img">
+    <image bindtap="cctvfn" style="margin-top:5rpx;" src="../../image/ad6dc7ba7a48a77656c05eb1ad9bd79.png"></image>
+    <image bindtap="zizhiFn" style="margin-top:10rpx;" src="../../image/ca650af369866fcc22b1f03ba1c1136.png"></image>
+  </view>
+</view>
+<!-- 语录 -->
+<view class="quotations">
+  <swiper class='' duration="1000" display-multiple-items="2.1" circular='true' hidden='{{luboActive}}' class=''>
+    <block wx:for="{{bac}}" wx:key="">
+      <swiper-item class="swiper1">
+        <image src="{{item.img}}" class='imgsper' bindtap="mjbind" data-id='{{item.id}}' data-id="{{item.id}}" data-activities_id='{{item.activities_id}}' />
+        <!-- <view class="txt">
+          <view>世界是哪个最难的事就是认识自己</view>
+          <view>卜新——</view>
+        </view> -->
+      </swiper-item>
+    </block>
+
+  </swiper>
+</view>
+<!-- 实时资讯 -->
+<view class="tit_zixun">
+  实时资讯
+</view>
+<view class="cont_information">
+  <view class="content" bindtap="godelit">
+    <view class="cont_txt">
+      理科和工科不一样！提前准备一下！千万别弄错 ！
+    </view>
+    <image src="../../image/tu@2x.png"></image>
+  </view>
+  <view class="content">
+    <view class="cont_txt">
+      理科和工科不一样！提前准备一下！千万别弄错 ！
+    </view>
+    <image src="../../image/tu@2x.png"></image>
+  </view>
+  <view class="content">
+    <view class="cont_txt">
+      理科和工科不一样！提前准备一下！千万别弄错 ！
+    </view>
+    <image src="../../image/tu@2x.png"></image>
+  </view>
+  <view class="content">
+    <view class="cont_txt">
+      理科和工科不一样！提前准备一下！千万别弄错 ！
+    </view>
+    <image src="../../image/tu@2x.png"></image>
+  </view>
+
+</view>
+<view style="width:100%;height:120rpx;"></view>
+<view class="taber">
+<image class="img1_fied" src="../../image/0a82b8764eeab5240b2e649498e8aac.png"></image>
+  <view class="index">
+    <image src="../../image/shouye@2x.png"></image>
+    <view >首页</view>
+  </view>
+  <view class="cep" bindtap="cepfn">
+    <image src="../../image/cep@2x.png"></image>
+    <view >测评</view>
+  </view>
+  <view class="me" bindtap="meFn">
+    <image src="../../image/wode@2x.png"></image>
+    <view>我的</view>
+  </view>
+</view>
+
+<!-- "tabBar": {
+    "custom": false,
+    "color": "#D8BFD8",
+    "selectedColor": "#FF8145",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "light",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/image/a118a27a33aed1027665beee654c999.png",
+        "selectedIconPath": "/image/shouye@2x.png"
+      },
+      {
+        "pagePath": "pages/evaluation/index",
+        "text": "测评",
+        "iconPath": "/image/cep@2x.png",
+        "selectedIconPath": "/image/cep@2x.png"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "我的",
+        "iconPath": "/image/wode@2x.png",
+        "selectedIconPath": "/image/fcaa740cfb93231c08ac5687d6fe709.png"
+      }
+    ]
+  }, -->

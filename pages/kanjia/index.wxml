@@ -1,0 +1,67 @@
+<view class="cont">
+  <image class="img1" src="../../image/tu@22x.png"></image>
+  <view class="right">
+    <view class="title">产品名称：生涯测评</view>
+    <view class="picker">56元</view>
+    <view class="kucun">
+      <text style="margin-right:10rpx;">库存2310</text>|
+      <text style="margin-left:10rpx;">已售</text>667</view>
+  </view>
+</view>
+<view class="picker_cont">
+  <view class="pick">
+    <view class="picker_txt">￥56</view>
+    <view class="pic">当前价</view>
+  </view>
+  <view class="yikan">已砍金额：1元</view>
+  <view class="time" wx:if="{{is_timestatus}}">剩余时间:{{countdown.day}}天 {{countdown.hour}}:{{countdown.minute}}:{{countdown.second}} </view>
+  <view class="time" wx:if="{{!is_timestatus}}">砍价已结束</view>
+  <view class="time_codeuser" bindtap="code_Gouser">帮他砍价</view>
+  <!-- <view class="tiem_codegoing">已帮价</view> -->
+</view>
+<view class="content">
+  <view class="nav_cont">
+    <view class="user_cont {{tid==1?'active':''}}" data-id="1" bindtap="sunbtn">亲友团</view>
+    <view class="shop_delits {{tid==2?'active':''}}" data-id="2" bindtap="sunbtn">商品详情</view>
+  </view>
+  <view class="nav_taber" wx:if="{{tid==1}}">
+    <view class="list">
+      <view class="left_list">
+        <image class="img_1" src="../../image/touxiang@2x.png"></image>
+        <view src="user_gos">砍价人的昵称</view>
+      </view>
+      <view class="right_list">+0.23</view>
+    </view>
+    <view class="list">
+      <view class="left_list">
+        <image class="img_1" src="../../image/touxiang@2x.png"></image>
+        <view src="user_gos">砍价人的昵称</view>
+      </view>
+      <view class="right_list">+0.23</view>
+    </view>
+    <view class="list">
+      <view class="left_list">
+        <image class="img_1" src="../../image/touxiang@2x.png"></image>
+        <view src="user_gos">砍价人的昵称</view>
+      </view>
+      <view class="right_list">+0.23</view>
+    </view>
+  </view>
+  <view class="nav_taber" wx:if="{{tid==2}}">
+      <view class="shopdelit">
+    商品详情:
+  </view>
+  <view class="shopdelittxt">
+    商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情商品详情
+  </view>
+  </view>
+</view>
+<view class="bot_fixd_btn">
+  <view class="goshop" bindtap="goshop">立即购买</view>
+  <view class="gokanjia" wx:if="{{code_id==1}}">
+   <button bindtap="gokanFn"  open-type="share" >找人帮价</button>
+  </view>
+  <view class="gokanjia" bindtap="me_Kuser" wx:if="{{code_id==2}}">
+    我也要砍
+  </view>
+</view>

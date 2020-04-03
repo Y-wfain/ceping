@@ -1,0 +1,63 @@
+/* pages/index-Consultation/index.wxss */
+.title{
+  width: 96%;
+  margin:0 auto;
+  margin-top:20rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+
+}
+.time{
+    width: 96%;
+  margin:0 auto;
+  margin-top:20rpx;
+  font-size: 24rpx;
+  color: gray;
+}
+.text{
+    width: 96%;
+  margin:0 auto;
+  margin-top:30rpx;
+  font-size: 26rpx;
+  color: gray;
+}
+.tit_view{
+  margin-left:2%;
+  display: flex;
+  font-size: 26rpx;
+  color: white;
+  margin-top: 50rpx;
+}
+.tit_num{
+  background: rgb(254, 182, 117);
+  padding: 10rpx 20rpx;
+}
+.tit_txt{
+  background: rgb(254, 120, 0);
+   padding: 10rpx 20rpx;
+}
+.txt1{
+      width: 96%;
+  margin:0 auto;
+  margin-top:30rpx;
+  font-size: 26rpx;
+  /* color: gray; */
+}
+.txt2{
+      width: 96%;
+  margin:0 auto;
+  margin-top:30rpx;
+  font-size: 26rpx;
+  color: gray;
+  margin-bottom: 50rpx;
+
+}
+.tit_tit{
+  margin-left:2%;
+  width: 170rpx;
+  margin-top:50rpx;
+  text-align: center;
+  /* padding: 10rpx 20rpx; */
+  background: rgb(254, 120, 0);
+  color: white;
+}

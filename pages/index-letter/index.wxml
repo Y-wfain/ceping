@@ -1,0 +1,24 @@
+<view class="bac" style="">
+
+
+  <view class="top_user">
+
+    <!-- <view class="left">
+    <view style="margin-top:0rpx;"></view>
+    <view></view>
+    <view></view>
+  </view> -->
+    <image class="img2" src="http://47.94.12.97:8099/img/fff67759f6e79b11fe5d1d668601759.png"></image>
+    <view class="user_txt">
+      <view>姓名：程同学</view>
+      <view>毕业高中：人大附中高三11班</view>
+      <view>测试时间：2019年4月21日</view>
+    </view>
+  </view>
+  <view class="txt_cont">
+    在今年的四月份、高考的一模后二模前，在妈妈 的安排下我做了栋梁（IMAP）测评，是为我高 考后即将面临的高考专业填报做准备。开始的心 态嘛，一是经过非常可信赖的人进行的推荐，所 以对测评没有什么信任度上面的怀疑，抱着认真 寻求帮助的心态去开展的；二是我之前基本上从 未参加过这样的评估测试，平时总是自己对自己 分析来分析去，所以非常期待这个测评能帮助我 更清晰地从外部（更何况还是多角度的）了解现 在的自己；三是关于职业生涯方面我没有在某一 方向特意接受过培养，也没有对某一方向有非常 非常浓厚的兴趣意愿，所以这个测评可以对我科
+    学地分析规划职业生涯具有极大的帮助，即非常 适合我的需求。就这样，我认认真真地按要求完 成了各种题目，获得了一份属于我的很详细的报 告。
+  </view>
+  <image class="img3" src="../../image/xingkuang@2x.png"></image>
+  <image class="img4" src="../../image/yuan@2x.png"></image>
+</view>

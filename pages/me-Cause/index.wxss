@@ -1,0 +1,188 @@
+/* pages/me-Cause/index.wxss */
+page {
+  background: rgb(246, 246, 246);
+}
+.top_uers {
+  width: 100%;
+  height: 210rpx;
+  position: relative;
+}
+.bang_code {
+  position: absolute;
+  width: 180rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  top: 44%;
+  right: 2%;
+  z-index: 2;
+  font-size: 28rpx;
+  color: rgb(254, 115, 0);
+  background: white;
+  border-radius: 10rpx;
+}
+.img_bcg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.cont_user {
+  position: absolute;
+  left: 5%;
+  top: 0;
+  z-index: 2;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.img_userhead {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.rigth_user {
+  width: 60%;
+  margin-left: 4%;
+  color: white;
+}
+
+.name_user {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.nav_content {
+  width: 90%;
+  /* padding: 20rpx 0; */
+  background: white;
+  margin: 0 auto;
+  height: 600rpx;
+  border-radius: 20rpx;
+  margin-top: 30rpx;
+}
+
+.list_cont {
+  width: 96%;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid rgb(238, 238, 238);
+  margin: 0 auto;
+}
+
+.left_img {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.txt {
+  width: 70%;
+  overflow: hidden;
+  margin-left: 4%;
+}
+
+.right_txt {
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  transform: rotate(45deg);
+}
+.active1{
+ background: rgb(254, 115, 0);
+}
+.active{
+  background: gray;
+}
+/* pages/me-user/index.wxss */
+
+.list_inp {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20rpx 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tit {
+  width: 20%;
+}
+
+.inp {
+  width: 60%;
+  border: 2rpx solid gray;
+  padding: 10rpx;
+  border-radius: 10rpx;
+}
+
+.main-item-input {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2rpx solid gray;
+  padding: 10rpx;
+  border-radius: 10rpx;
+}
+
+.picker-area-text {
+  width: 300rpx;
+}
+
+.rigt_txt {
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  transform: rotate(45deg);
+}
+
+.sub_mit {
+  width: 220rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 30rpx;
+  color: white;
+  background: rgb(254, 103, 0);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100rpx;
+  border-radius: 20rpx;
+}
+.cont_tixian{
+    width: 90%;
+  padding: 20rpx 0;
+  background: white;
+  margin: 0 auto; 
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tixian_txt{
+  margin-left:20rpx;
+  font-size: 30rpx;
+  color: rgb(36, 35, 35);
+}
+.txt_mon{
+   color: rgb(0, 0, 0);
+}
+.tixian_btn{
+  margin-right: 20rpx;
+  padding: 10rpx 20rpx;
+  color: white;
+ 
+  border-radius: 10rpx;
+}

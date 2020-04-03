@@ -1,0 +1,5 @@
+<view class="cont">
+ <view class="img"><image src="../../image/jiangjin@2x.png"></image></view> 
+  <view class="picker">230</view>
+</view>
+<view class="ti_sub">提现</view>

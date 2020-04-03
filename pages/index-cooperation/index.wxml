@@ -1,0 +1,23 @@
+<view class="cont">
+  <image class="img1" src="../../image/bjdx@2x.png"></image>
+  <view class="cont_txt">
+    北京大学创办于1898年，初名京师大 学堂，是中国第一所国立综合性大学， 也是当时中国最高教育行政机关。辛亥 革命后，于1912年改为现名。
+  </view>
+</view>
+<view class="cont">
+   <image class="img1" src="../../image/zgrmdx@2x.png"></image>
+  <view class="cont_txt">
+    中国人民大学（Renmin University of China）是中国共产党创办的第一所新 型正规大学，是一所以人文社会科学为 主的综合性研究型全国重点大学，直属 于教育部，由教育部与北京市共建。
+  </view>
+</view>
+
+<view class="cont">
+ 
+  <image class="img1" src="../../image/bjlgdx@2x.png"></image>
+  <view class="cont_txt">
+    北京理工大学（Beijing Institute of T echnology）是中国共产党创办的第一 所理工科大学，隶属于中华人民共和国 工业和信息化部，是全国重点大学，首 批进入国家“211工程”、“985工程”。
+  </view>
+</view>
+<view class="postfid" bindtap="gojoin">
+  加入我们
+</view>

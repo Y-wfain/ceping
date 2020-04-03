@@ -1,0 +1,144 @@
+/* pages/shopdelit/index.wxss */
+
+page {
+  background: rgb(246, 246, 246);
+}
+
+.searchBox {
+  width: 100%;
+  height: 400rpx;
+  position: relative;
+}
+
+.shop_swiper {
+  width: 100%;
+  height: 400rpx;
+}
+
+.lbImg {
+  width: 100%;
+  height: 400rpx;
+}
+
+.imgheight {
+  height: 400rpx;
+}
+
+.imgheight image {
+  height: 400rpx;
+}
+
+.posit_time {
+  position: absolute;
+  left: 0%;
+  bottom: 0;
+  width: 94%;
+  padding: 0 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(254, 120, 0);
+  height: 60rpx;
+  font-size: 26rpx;
+  line-height: 60rpx;
+  color: white;
+}
+
+.delit_shop {
+  width: 94%;
+  padding: 3%;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left_txt {
+  width: 50%;
+}
+
+.title {
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.title_txt {
+  font-size: 26rpx;
+  color: gray;
+}
+
+.right_txt {
+  width: 50%;
+}
+
+.img_liu1 {
+  width: 100%;
+  height: 38rpx;
+}
+
+.bot_user_txt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.img_jt {
+  width: 18rpx;
+  height: 24rpx;
+  padding: 0 10rpx;
+}
+
+.txt_user {
+  font-size: 24rpx;
+}
+
+.shop_deelit_txt {
+  width: 100%;
+  background: white;
+  margin-top: 40rpx;
+  padding: 20rpx 0;
+}
+
+.shopdelit {
+  width: 94%;
+  margin: 0 auto;
+  font-size: 30rpx;
+}
+
+.shopdelittxt {
+  font-size: 28rpx;
+  color: gray;
+  width: 94%;
+  margin: 0 auto;
+  margin-top: 20rpx;
+}
+
+.bot_fixd_btn {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 100rpx;
+  line-height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.goshop {
+  width: 50%;
+  text-align: center;
+  font-size: 30rpx;
+  color: rgb(254, 101, 0);
+}
+
+.gokanjia {
+  width: 50%;
+  font-size: 30rpx;
+  background: rgb(254, 101, 0);
+  color: white;
+  text-align: center;
+}

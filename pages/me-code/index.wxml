@@ -1,0 +1,74 @@
+<view class="cont" bindtap="gocodeFn">
+  <!-- <view class="shiyong">已使用</view> -->
+  <view class="top_tit">测评码</view>
+  <view class="cpmton">
+    <view class="left">
+      <view class="code_cont">
+        <view class="txt_contcode">购买数：100个</view>
+      </view>
+       <view class="code_cont">
+        <view class="txt_contcode">已使用：100个</view>
+      </view>
+      <view class="look_ciont">查看</view>
+    </view>
+    <view class="right">
+      <view class="time_tit">订单号：AFJ548552</view>
+      <view class="time_tit">购买时间:2020.01.02 10:00</view>
+    </view>
+  </view>
+</view>
+<view class="cont">
+  <!-- <view class="shiyong">已使用</view> -->
+  <view class="top_tit">测评码</view>
+  <view class="cpmton">
+    <view class="left">
+      <view class="code_cont">
+        <view class="txt_contcode">购买数：100个</view>
+      </view>
+       <view class="code_cont">
+        <view class="txt_contcode">已使用：20个</view>
+      </view>
+      <view class="look_ciont">查看</view>
+    </view>
+    <view class="right">
+      <view class="time_tit">订单号：AFJ548552</view>
+      <view class="time_tit">购买时间:2020.01.02 10:00</view>
+    </view>
+  </view>
+</view>
+<!-- <view class="cont">
+  <view class="weishiyong">未使用</view>
+  <view class="top_tit">测评码</view>
+  <view class="cpmton">
+    <view class="left">
+      <view class="code_cont">
+        <view class="txt_contcode">ABF123465</view>
+        <view class="copy">复制</view>
+      </view>
+      <view class="look_ciont">去测评</view>
+    </view>
+    <view class="right">
+      <view class="time_tit">订单号：AFJ548552</view>
+      <view class="time_tit">购买时间:2020.01.02 10:00</view>
+    </view>
+  </view>
+</view>
+<view class="cont" style="background:rgb(201,202,202);">
+
+<view class="yishixiao">已失效</view>
+  <view class="top_tit" style="background:rgb(169,170,170);">测评码</view>
+  <view class="cpmton">
+    <view class="left">
+      <view class="code_cont">
+        <view class="txt_contcode">ABF123465</view>
+        <view class="copy"  style="background:rgb(201,202,202);color:white;">已失效</view>
+      </view>
+
+    </view>
+    <view class="right">
+      <view class="time_tit">订单号：AFJ548552</view>
+      <view class="time_tit">购买时间:2020.01.02 10:00</view>
+
+    </view>
+  </view>
+</view> -->

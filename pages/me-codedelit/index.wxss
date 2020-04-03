@@ -1,0 +1,153 @@
+/* pages/me-codedelit/index.wxss */
+
+.top_rideo {
+  width: 96%;
+  /* display: flex; */
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 20rpx;
+  height: 50rpx;
+}
+
+.active {
+  color: rgb(254, 101, 0);
+}
+
+.piliang {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.cont_all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30rpx;
+  float: right;
+}
+
+.contlist_code {
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  overflow: hidden;
+}
+
+.code_cont {
+  width: 166%;
+  height: 220rpx;
+  background: url(http://47.94.12.97:8099/img/85c1f3e7d310f16dab60fcaa4e3e548.png) no-repeat center;
+  background-size: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chend{
+  width: 100%;
+}
+.tit_delit {
+  width: 72%;
+  margin-top: 10rpx;
+}
+
+.tit_delit view {
+  text-align: center;
+}
+
+.code_num {
+  font-size: 36rpx;
+}
+
+.gotime {
+  font-size: 23rpx;
+  color: #999999;
+}
+
+.endtime {
+  font-size: 23rpx;
+  color: #999999;
+}
+.status{
+  margin-right:6%;
+  transform: rotate(-45deg);
+  color: white;
+
+}
+.copy{
+  width: 100%;
+  line-height: 100rpx;
+  background: rgb(254, 101, 0);
+  font-size: 30rpx;
+  text-align: center;
+  color: white;
+  position: fixed;
+  left:0;
+  bottom: 0;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 18px;
+    margin-right: 10px;
+    position: relative;
+}
+ 
+input[type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(9, 187, 7);
+    width: 100%;
+    height: 100%;
+    border: 1px solid #d9d9d9;
+    border-radius:100%;
+
+}
+ 
+input[type="checkbox"]:checked::before {
+    content: "\2713";
+     background: rgb(9, 187, 7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid #7D7D7D;
+    border-radius:100%;
+    color: #7D7D7D;
+    font-size: 20px;
+    font-weight: bold;
+}
+checkbox .wx-checkbox-input {
+    width: 34rpx;
+    height: 34rpx;
+    border-radius: 50%;
+}
+/*checkbox选中后样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background: rgb(9, 187, 7);
+  border-color:rgb(9, 187, 7);
+}
+/*checkbox选中后图标样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  width: 20rpx;
+  height: 20rpx;  
+  line-height: 20rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #fff;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}

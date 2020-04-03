@@ -1,0 +1,48 @@
+/* pages/me-Presentation/index.wxss */
+page{
+  background: rgb(246, 246, 246);
+}
+.cont{
+  width: 94%;
+  margin: 0 auto;
+  margin-top:20rpx;
+  margin-bottom:20rpx;
+  padding: 26rpx 0rpx;
+  display: flex;
+  background: white;
+  border-radius: 20rpx;
+  justify-content: center;
+  align-items: center;
+}
+.img1{
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 3%
+}
+.right_cont{
+  width: 52%;
+}
+.right_cont view{
+  padding: 10rpx 0;
+  font-size: 24rpx;
+}
+.look_txt{
+  /* padding-top:30rpx; */
+  border-radius: 20rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  padding: 6rpx 10rpx;
+  color: rgb(254, 99, 0);
+  font-size: 28rpx;
+  border:2rpx solid rgb(254, 99, 0);
+}
+.look_txts{
+  /* padding-top:30rpx; */
+  border-radius: 20rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  padding: 6rpx 10rpx;
+  color: rgb(254, 99, 0);
+  font-size: 24rpx;
+  /* border:2rpx solid rgb(254, 99, 0); */
+}

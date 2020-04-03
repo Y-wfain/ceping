@@ -1,0 +1,29 @@
+<view class="top_cont">
+  <view class="top_tit">
+    <image src="../../image/jv.png"></image>
+    <view class="txt_delit">
+      <view class="tit_txt_top">项目简介</view>
+      <view class="elight">Project introduction</view>
+    </view>
+  </view>
+  <view class="txt_top">
+    心智栋梁是一家以心理测评为主导，为 学生提供生涯发展指导、学习潜能开发 等服务的教育研究院，秉承“人人都有巨 大的潜能，人人都能成功”的教育理念， 为学生进行人生规划指导及学习潜能开 发。栋梁测评（IMAP）《高中生生涯发 展评估分析系统》是北京教育科学研究 院张贵良联合北京师范大学知名学者联 合开发。从2000年始以生涯规划为核心 的潜能测评系统，先后为北京的清华附 中、北大附中、人大附中、四中、实验 中学、八中、十一学校、汇文学校、东 直门中学、陈经纶学校、15中及延庆一 中等100多所学校及全国的百万名学生，
+    进行了科学填报志愿及专业选择的定向 升学指导。
+  </view>
+  <image class="img1" src="../../image/lifangti@2x.png"></image>
+</view>
+<view class="me_cont">
+<image class="img2" src="../../image/xian@2x.png"></image>
+<view class="bot_titl">
+  为什么选择我们
+</view>
+<image class="img3" src="../../image/xian@2x.png"></image>
+<image class="img4" src="../../image/tufangti@2x.png"></image>
+<image class="img5" src="../../image/lfy@2x.png"></image>
+
+<view class="txt_top">
+ 栋梁测评（IMAP）《高中生生涯发展评 估分析系统》是北京教育科学研究院张 贵良联合北京师范大学知名学者联合开 发，经过了二十多年的研究和实践经验 积累，先后为北京的清华附中、北大附 中、人大附中、四中、实验中学、八中、 十一学校、汇文学校、东直门中学、陈 经纶学校、15中及延庆一中等100多所 学校及全国的百万名学生，进行了科学 填报志愿及专业选择的定向升学指导， 建立了大数据模型。并于2004年获得权 威机构的认可
+</view>
+ 
+</view>
+<view style="width:100%;height:100rpx;"></view>

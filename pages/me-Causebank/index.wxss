@@ -1,0 +1,157 @@
+/* pages/me-Causebank/index.wxss */
+page{
+  background: rgb(239, 239, 239);
+}
+.zhifub{
+  background: url(http://47.94.12.97:8099/img/zhifubao.png) no-repeat center;
+  width: 90%;
+  margin: 0 auto;
+  background-size: 100%;
+  margin-top: 20rpx;
+  height: 170rpx;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+}
+.img1{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 24rpx;
+   margin-left:50rpx;
+}
+.txt{
+  font-size: 28rpx;
+  margin-right: 20rpx;
+  margin-left:10rpx;
+}
+.num_code{
+  width:44%;
+  font-size: 30rpx;
+  /* margin-left:50rpx; */
+}
+.dele{
+  position: absolute;
+  top:24rpx;
+  right:14rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: white;
+  width: 64rpx;
+}
+.yhk{
+    background: url(http://47.94.12.97:8099/img/yhk.png) no-repeat center;
+  width: 90%;
+  margin: 0 auto;
+  background-size: 100%;
+  margin-top: 20rpx;
+  height: 170rpx;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+}
+.fixe{
+    margin: 0 auto;
+  margin-top:100rpx;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120rpx;
+  line-height: 120rpx;
+  border-radius: 10rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+}
+.jia{
+  font-size: 58rpx;
+  font-weight: 600;
+  margin-top:-4rpx;
+}
+.txt_title{
+  font-size: 30rpx;
+}
+.opctioy{
+  background: black;
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  opacity: .7;
+  z-index: 1;
+}
+.showMlode{
+  position: fixed;
+  top:15%;
+  width: 70%;
+  transition: all .5s;
+  left:15%;
+  height: 600rpx;
+  background: white;
+  z-index: 2;
+  border-radius: 10rpx;
+}
+.title_show{
+  width: 100%;
+  text-align: center;
+  margin-top:28rpx;
+  font-size: 30rpx;
+  padding-bottom: 28rpx;
+  border-bottom: 2rpx solid gray;
+}
+.type_name{
+  width: 90%;
+  font-size: 30rpx;
+  display: flex;
+  margin:0 auto;
+  margin-top:60rpx;
+  padding-bottom: 2rpx;
+  /* border-bottom: 2rpx solid #ccc; */
+}
+.type_txt{
+  margin-right: 60rpx;
+  margin-left: 10rpx;
+  width: 138rpx;
+  text-align: right;
+}
+.picker-area-text{
+  width: 200rpx;
+  color: rgb(53, 53, 53);
+}
+.inp1{
+  width: 260rpx;
+  font-size: 28rpx;
+  color: rgb(53, 53, 53);
+  border-bottom: 1px solid gray;
+
+}
+.show_tishi{
+  width: 80%;
+  font-size: 24rpx;
+  color: red;
+  margin: 0 auto;
+  margin-top:50rpx;
+}
+.sub_mit{
+  width: 180rpx;
+  height: 70rpx;
+  color: white;
+  background: rgb(254, 115, 0);
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 70rpx;
+  margin:0 auto;
+  margin-top:70rpx;
+}
+.tishiShow4{
+  width: 100%;
+  color:gray;
+  text-align: center;
+  font-size: 28rpx;
+  margin-top:30rpx;
+}

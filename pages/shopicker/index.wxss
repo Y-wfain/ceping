@@ -1,0 +1,130 @@
+/* pages/shopicker/index.wxss */
+page{
+  background: rgb(246, 246, 246);
+}
+.shop{
+  background: white;
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.img1{
+  width: 220rpx;
+  height: 220rpx;
+
+}
+.right_txt{
+  width: 64%;
+  margin-left: 2%;
+}
+.top_txt{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title{
+  font-size: 28rpx;
+}
+.picker{
+  font-size: 28rpx;
+  color: rgb(254, 101, 0);
+  
+}
+.nums{
+  margin-top:15rpx;
+  margin-bottom: 15rpx;
+  text-align: right;
+   font-size: 30rpx;
+  color: rgb(254, 101, 0);
+}
+.num_sub{
+  /* width: %; */
+  /* text-align: right; */
+  /* float: right; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: right; */
+  margin-top:20rpx;
+}
+.num_txt{
+  margin-right: 10rpx;
+  font-size: 28rpx;
+  margin-left:30%;
+}
+.sub_numstxt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3%;
+}
+.jie{
+  width: 40rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 36rpx;
+  /* padding: 10rpx; */
+  font-size: 46rpx;
+  border:2rpx solid #ccc;
+  color: gray;
+  margin: 0 6rpx;
+}
+.jia{
+   width: 40rpx;
+  height:40rpx;
+  text-align: center;
+  line-height: 36rpx;
+   /* padding: 10rpx; */
+  font-size: 46rpx;
+  color: gray;
+  border:2rpx solid #ccc;
+  margin: 0 6rpx;
+}
+.inp1{
+  width:100rpx;
+  text-align: center;
+}
+.txt{
+  width: 80%;
+  font-size: 27rpx;
+  /* margin-left:30%; */
+  margin-top:20rpx;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+.shop_deelit_txt {
+  width: 100%;
+  background: white;
+  margin-top: 40rpx;
+  padding: 20rpx 0;
+}
+
+.shopdelit {
+  width: 94%;
+  margin: 0 auto;
+  font-size: 30rpx;
+}
+
+.shopdelittxt {
+  font-size: 28rpx;
+  color: gray;
+  width: 94%;
+  margin: 0 auto;
+  margin-top: 20rpx;
+}
+.gosub{
+  position: fixed;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: rgb(254, 101, 0);
+  font-size: 30rpx;
+  width: 100%;
+  left:0;
+  bottom: 0;
+  color: white;
+}

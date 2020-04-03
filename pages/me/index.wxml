@@ -1,0 +1,77 @@
+<view class="top_uers">
+  <image src="../../image/522007716bbf6e7f25f551311be66c9.png" class="img_bcg"></image>
+  <view class="cont_user" bindtap="meuser">
+    <image src="{{user_in.avatar}}" class="img_userhead"></image>
+    <view class="rigth_user">
+      <view class="name_user">{{user_in.name?user_in.name:user_in.nickName}}</view>
+      <view class="phone"> {{mobile?mobile:''}}</view>
+    </view>
+  </view>
+</view>
+<view class="list_cont" bindtap="cepingbind">
+  <image class="left_img" src="../../image/CPM@2x.png"></image>
+  <view class="txt">我的测评码</view>
+  <view class="right_txt"></view>
+</view>
+<view class="list_cont" bindtap="listprend">
+  <image class="left_img" src="../../image/WDBG@2x.png"></image>
+  <view class="txt">我的报告</view>
+  <view class="right_txt"></view>
+</view>
+<view class="list_cont" bindtap="listbartap">
+  <image class="left_img" src="../../image/WDKJ@2x.png"></image>
+  <view class="txt">我的订单</view>
+  <view class="right_txt"></view>
+</view>
+<view class="list_cont" bindtap="listbartapskan">
+  <image class="left_img" src="../../image/41f21bc7b7216cf8a75478e5a6730d8.png"></image>
+  <view class="txt">我的砍价</view>
+  <view class="right_txt"></view>
+</view>
+<view class="list_cont" bindtap="sharped">
+  <image class="left_img" src="../../image/WDFX@2x.png"></image>
+  <view class="txt">我的分享</view>
+  <view class="right_txt"></view>
+</view>
+<view class="list_cont" bindtap="caretbind">
+  <image class="left_img" src="../../image/WDSY@2x.png"></image>
+  <view class="txt">我的事业</view>
+  <view class="right_txt"></view>
+</view>
+
+<view style="width:100%;height:120rpx;"></view>
+<view class="taber">
+  <image class="img1_fied" src="../../image/0a82b8764eeab5240b2e649498e8aac.png"></image>
+  <view class="index" bindtap="indexFn">
+    <image src="../../image/a118a27a33aed1027665beee654c999.png"></image>
+    <view>首页</view>
+  </view>
+  <view class="cep" bindtap="cepfn">
+    <image src="../../image/cep@2x.png"></image>
+    <view>测评</view>
+  </view>
+  <view class="me" bindtap="meFn">
+    <image src="../../image/fcaa740cfb93231c08ac5687d6fe709.png"></image>
+    <view>我的</view>
+  </view>
+</view>
+<view class="optict" wx:if="{{isSiuser}}" bindtap="ggopfn"></view>
+<view class="Shouquan" wx:if="{{isSiuser}}">
+  <view class="titless">
+    提示 ！
+  </view>
+  <view class="cont_tltsops">
+    您的账号未绑定手机号，点击获取
+  </view>
+  <view class="btn_button">
+    <view class="quxiao_btn" bindtap="ggopfn">
+      取消
+    </view>
+    <button class="butn_bottys" open-type='getPhoneNumber' bindgetphonenumber="getPhoneNumber">获取 </button>
+  </view>
+  <!-- <view class='buttons' wx:if="{{!hasUserInfo}}" catchtouchmove='preventD'>
+    <view class='butt'>
+      <button  class='getUser' open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击授权登陆 </button>
+    </view>
+  </view> -->
+</view>

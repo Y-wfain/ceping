@@ -1,0 +1,86 @@
+<block wx:if="{{user==1}}">
+  <view class="top_uers">
+    <image src="../../image/522007716bbf6e7f25f551311be66c9.png" class="img_bcg"></image>
+    <view class="cont_user">
+      <image src="../../image/touxiang@2x.png" class="img_userhead"></image>
+      <view class="rigth_user">
+        <view class="name_user">朱三顺</view>
+        <view class="">134*****951</view>
+      </view>
+    </view>
+    <view class="bang_code" bindtap="bdyhkFn">绑定银行卡</view>
+  </view>
+  <view class="cont_tixian">
+    <view class="tixian_txt">可提现金额
+      <text class="txt_mon">300</text>
+    </view>
+    <view class="tixian_btn {{status==1?'active':'active1'}}" data-status="{{status}}" bindtap="tixianFn">提现</view>
+  </view>
+  <view class="nav_content">
+    <view class="list_cont" bindtap="fenxiaobind">
+      <image class="left_img" src="../../image/FENXIAODINGDAN@2x.png"></image>
+      <view class="txt">分销订单</view>
+      <view class="right_txt"></view>
+    </view>
+    <view class="list_cont" bindtap="sharebind">
+      <image class="left_img" src="../../image/FENXIANGERWEIMA@2x.png"></image>
+      <view class="txt">我的分享</view>
+      <view class="right_txt"></view>
+    </view>
+    <view class="list_cont" bindtap="commission">
+      <image class="left_img" src="../../image/TIXIANMINGXI@2x.png"></image>
+      <view class="txt">提现明细</view>
+      <view class="right_txt"></view>
+    </view>
+
+    <view class="list_cont" bindtap="mekehu">
+      <image class="left_img" src="../../image/04.png"></image>
+      <view class="txt">我的客户</view>
+      <view class="right_txt"></view>
+    </view>
+  </view>
+</block>
+<block wx:if="{{user==2}}">
+  <view class="list_inp">
+    <view class="tit">姓名</view>
+    <input bindinput="nameuser" class="inp" value="{{}}" placeholder="请输入姓名" />
+  </view>
+  <view class="list_inp">
+    <view class="tit">年龄</view>
+    <input bindinput="agefn" class="inp" value="{{}}" placeholder="请输入年龄" />
+  </view>
+  <view class="list_inp">
+    <view class="tit">性别</view>
+    <view class="main-item-input">
+      <picker bindchange="pickerProChange" value="{{ pickerProData.index }}" range="{{ pickerProData.items }}">
+        <view class="picker-area-text">
+          {{pickerProData.items[pickerProData.index]}}
+        </view>
+      </picker>
+      <!-- <view class="rigt_txt"></view> -->
+    </view>
+  </view>
+  <view class="list_inp">
+    <view class="tit">地址</view>
+    <view class="main-item-input">
+      <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+        <view class="picker-area-text" wx:if="{{region!=''}}">
+          {{region[0]}}{{region[1]}}{{region[2]}}
+        </view>
+        <view class="picker-area-text" wx:else>请选择</view>
+      </picker>
+      <!-- <view class="rigt_txt"></view> -->
+    </view>
+  </view>
+  <view class="list_inp">
+    <view class="tit">电话</view>
+    <input bindinput="phone" type="number" class="inp" value="{{}}" placeholder="请输入电话" />
+  </view>
+  <view class="list_inp">
+    <view class="tit">单位</view>
+    <input bindinput="addFn" type="text" class="inp" value="{{}}" placeholder="请输入单位" />
+  </view>
+  <view class="sub_mit">
+    提交
+  </view>
+</block>
